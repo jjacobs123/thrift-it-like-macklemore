@@ -1,11 +1,11 @@
 # thrift-it-like-macklemore
 Skills Team 2: Zalando Pre-owned API/Web scraping
 
-#**Documentation**
+# **Documentation**
 
-##**1. Motivation**
+## **1. Motivation**
 
-###**1.1 For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.**
+### **1.1 For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.**
 
 Over the past few years, the topic of sustainability has gained a lot of attention. It is well known that in order to preserve the planet for future generations, sustainability needs to be implemented in everyday life. Therefore, a lot of companies have started to implement sustainability into their organizations. This can even be beneficial for companies, as if they are able to implement good sustainability practices and adequately diffuse them towards their stakeholders, it can in the medium term become a source of competitive advantage and as a consequence lead to value creation (Sicoli, Bronzetti & Baldini, 2019). 
 
@@ -15,16 +15,16 @@ In more recent years, a new trend has started to emerge, namely existing clothin
 
 For this dataset, it was chosen to focus on the website *Zalando* in The Netherlands, more specifically their *“Pre-owned”* section. Zalando started to offer this feature on their website in The Netherlands in October 2020 (Duurzaam Ondernemen, 2020). Compared to the previously mentioned websites, Zalando is an interesting choice as it offers clothes from more than 4500 brands, whereas a lot of other stores only sell their own brand. With this dataset it could for example be investigated which brands are mostly offered for second-hand clothing, which sizes and types of products are most popular, and the pictures that are used to sell the products. When comparing this data over a period of time, new trends can be analyzed and it can be determined whether it is beneficial for a clothing store to offer their own clothes as second-hand. Moreover, as Zalando offers its products in more than 14 countries, the dataset of The Netherlands could be compared to other countries to see if there are country-specific differences. 
 
-###**1.2 Who created this dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?**
+### **1.2 Who created this dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?**
 
 The  dataset was developed by a project group of the course Online Data Collection and Management taught by Hannes Datta as part of the Master Marketing Analytics at Tilburg University. 
 
-###**1.3 Who funded the created of the dataset? If there is an associated grant, please provide the name of the grantor and the grand name and number.**
+### **1.3 Who funded the created of the dataset? If there is an associated grant, please provide the name of the grantor and the grand name and number.**
 
 There was no funding or grant for the development of this dataset. 
 
 
-##**References**
+## **References**
 
 Duurzaam Ondernemen. (2020). *Zalando Lanceert “Pre-Owned” in Nederland*. Duurzaam Ondernemen. https://www.duurzaam-ondernemen.nl/zalando-lanceert-pre-owned-in-nederland/
 
