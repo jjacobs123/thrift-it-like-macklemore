@@ -44,13 +44,13 @@ Motivation depends on previous question
 For each instance (i.e., clothing item) the following data will be collected:
 
 **Variable - Description - Type of data**
-Pre-owned -	Whether the item is pre-owned or not - Unprocessed text
-Product type - The type of clothing item (e.g., t-shirt, sweater, pants) - Unprocessed text
-Brand name - The name of the brand which made the clothing item - Unprocessed text
-Size - The size of the clothing item  - Unprocessed text
-Price - The price at which the clothing item is sold - Unprocessed text
-Color -	The color of the clothing item - Unprocessed text
-Delivery time -	The indicated time it takes to deliver the product to the customer - Unprocessed text 
+1. Pre-owned -	Whether the item is pre-owned or not - Unprocessed text
+2. Product type - The type of clothing item (e.g., t-shirt, sweater, pants) - Unprocessed text
+3. Brand name - The name of the brand which made the clothing item - Unprocessed text
+4. Size - The size of the clothing item  - Unprocessed text
+5. Price - The price at which the clothing item is sold - Unprocessed text
+6. Color -	The color of the clothing item - Unprocessed text
+7. Delivery time -	The indicated time it takes to deliver the product to the customer - Unprocessed text 
 
 ### **2.5 Is there a label or target associated with each instance? If so, please provide a description**
 
