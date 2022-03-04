@@ -36,10 +36,22 @@ Pre-owned men’s clothing items  | 68,442 items divided over 6 different clothi
 ### **2.3 Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated / verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).**
 The dataset is a sample of instances from “regular” men’s clothing items and “pre-owned” men’s clothing items. To keep the dataset compact, there is chosen to gather a sample based on the different brands, more specific the 50 most popular brands within men's clothing. The reason behind this is so that researcher could conduct research to gather insight in deviation between “regular” men’s clothing items and “pre-owned” men’s clothing items. 
 
-*SAMPLE SIZE CALCULTATION*
+*SAMPLE SIZE CALCULTATION*  
 *SAMPLE SIZE TO BE DEDICED* Voor hoeveel items wordt per categorie, "regular" en "pre-owned", aan informatie opgehaald?
 
 ### **2.4 What data does each instance consist of? “Raw” data (e.g., unprocessed text or image) or features? In either case, please provide a description.**
+For each instance - “regular” men’s clothing item as well as “pre-owned” men’s clothing item - the following data is collected:
+
+**Variable**    | **Description**                                                       | **Type of data**
+----------------|-----------------------------------------------------------------------|---------------------
+Pre-owend       | Whether the item is pre-owned or not                                  | Unprocessed text
+Product type    | The type of clothing item (e.g., t-shirt, sweater, pants)             | Unprocessed text
+Brand name      | The name of the brand which made the clothing item                    | Unprocessed text
+Size            | The size of the clothing item                                         | Unprocessed text
+Price           | The price at which the clothing item is offered                       | Unprocessed text
+Color           | The color of the clothing item                                        | Unprocessed text
+Delivery time   | The indicated time it takes to deliver the product to the customer    | Unprocessed text
+
 
 For each instance (i.e., clothing item) the following data will be collected:
 
