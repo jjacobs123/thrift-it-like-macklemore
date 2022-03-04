@@ -1,5 +1,6 @@
-# Zalando Pre-owned: thrift-it-like-macklemore
-Skills Team 2: Zalando Pre-owned API/Web scraping
+# Zalando Pre-owned: "thrift it like macklemore"
+*Content: Documentation Zalando Pre-owned API/Web scraping & dataset
+Authors: Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol, Rob van der Wielen (Team 2)*
 
 # **Documentation**
 
@@ -19,6 +20,7 @@ The dataset was developed by a project group of the course Online Data Collectio
 ### **1.3 Who funded the created of the dataset? If there is an associated grant, please provide the name of the grantor and the grand name and number.**
 There was no funding or grant for the development of this dataset, as this dataset is a result of the web scraper which the project group built. 
 
+
 ## **2. Composition**
 ### **2.1 What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.**
 The instances are men’s clothing items extracted from the Zalando website in The Netherlands. Within the instances is made a distinction between two types of men’s clothing items as this dataset should enable researchers to conduct research on for example the differences between them. There are two types of instances used in this dataset: “regular” men’s clothing items and “pre-owned” men’s clothing items. 
@@ -36,7 +38,7 @@ Pre-owned men’s clothing items  | 68,442 items divided over 6 different clothi
 ### **2.3 Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated / verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).**
 The dataset is a sample of instances from “regular” men’s clothing items and “pre-owned” men’s clothing items. To keep the dataset compact, there is chosen to gather a sample based on the different brands, more specific the 50 most popular brands within men's clothing. The reason behind this is so that researcher could conduct research to gather insight in deviation between “regular” men’s clothing items and “pre-owned” men’s clothing items. 
 
-*SAMPLE SIZE CALCULTATION*  
+*SAMPLE SIZE CALCULATION*  
 *SAMPLE SIZE TO BE DEDICED* Voor hoeveel items wordt per categorie, "regular" en "pre-owned", aan informatie opgehaald?
 
 ### **2.4 What data does each instance consist of? “Raw” data (e.g., unprocessed text or image) or features? In either case, please provide a description.**
@@ -53,54 +55,106 @@ Color           | The color of the clothing item                                
 Delivery time   | The indicated time it takes to deliver the product to the customer    | Unprocessed text
 
 
-For each instance (i.e., clothing item) the following data will be collected:
-
-**Variable - Description - Type of data**
-1. Pre-owned -	Whether the item is pre-owned or not - Unprocessed text
-2. Product type - The type of clothing item (e.g., t-shirt, sweater, pants) - Unprocessed text
-3. Brand name - The name of the brand which made the clothing item - Unprocessed text
-4. Size - The size of the clothing item  - Unprocessed text
-5. Price - The price at which the clothing item is sold - Unprocessed text
-6. Color -	The color of the clothing item - Unprocessed text
-7. Delivery time -	The indicated time it takes to deliver the product to the customer - Unprocessed text 
-
 ### **2.5 Is there a label or target associated with each instance? If so, please provide a description**
-
-Not applicable (?)
+The label is whether or not an clothing item is pre-owned or not, as clarified in #2.1 the data is collected for men's clothing with the distinction between "regular" men's clothing items and "pre-owned" men's clothing items. 
 
 ### **2.6 Is any information missing from individual instances? If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include, e.g., redacted text.**
-
-To be decided once data is collected
+*TO BE DEDICED AFTER DATA COLLECTION IS COMPLETED*
 
 ### **2.7 Are relationships between individual instances made explicit (e.g., users movie ratings, social network links)? If so, please describe how these relationships are made explicit.**
-
-Not sure
+*TO BE DEDICED AFTER DATA COLLECTION IS COMPLETED* Misschien relationship op basis van brand, maar data is niet gepersonaliseerd dus niets is bijvoorbeeld terug te leiden naar een gebruiker. Hoe ziet de rest dit?
 
 ### **2.8 Are there recommended data splits (e.g., training, development / validation, testing)? If so, please provide a description of these splits, explaining the rationale behind them.**
-
-For our case, we decided not to split the dataset (?). However, there are options to do so. One option would for example be to split the dataset based on which products are pre-owned or not. This way differences in product characteristics can be observed. 
+This dataset is not split beforehand, as the dataset should provided any person with its full information. However, it is possible to split the dataset in two separate datasets based on which products are pre-owned or not. This way differences in product characteristics can be observed. 
 
 ### **2.9 Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)? If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant over time; b) are there official archival versions of the complete dataset (i.e., including external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g., licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.**
-
-The  dataset is self-contained. It only links to and relies on the Zalando website.
+The dataset is self-contained and does not rely on any external resources. The data within the dataset is exclusively collected from the Zalando website (zalando.nl).
 
 ### **2.10  Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor patient confidentiality, data that includes the content of individuals non-public communications)? If so, please provide a description.**
-
-No. All data in the dataset is publicly available on the Zalando website and thus no confidential information is included.
+The data within this dataset is not considered confidential, as there is no user-related information extracted during the collection of the data. All data in the dataset is publicly available on the Zalando website. 
 
 ### **2.11 Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.**
-
-The dataset does not contain any offensive, insulting, threatening or anxiety causing information.
+Not applicable. The dataset does not contain any offensive, insulting, threatening or anxiety causing information.
 
 ### **2.12 Does the dataset relate to people? If not, you may skip the remaining questions in this section.**
-
-No
+As mentioned under #2.10, there is no user-related information extracted during the collection of the data.
 
 ### **2.13 Does the dataset identify any subpopulations (e.g., by age, gender)? If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.**
+Not applicable.
 
 ### **2.14 Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) form the dataset? If so, please describe how.**
+Not applicable.
 
 ### **2.15 Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals racial or ethnics origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.**
+Not applicable.
+
+
+## **3. Collection Process**
+### **3.1 How was the data associated with each instance ac-quired? Was the data directly observable (e.g., raw text, movie ratings), reported by sub- jects (e.g., survey re-sponses), or indirectly inferred/derived from other data (e.g., part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validat-ed/verified? If so, please describe how.**
+*TO-DO*
+
+### **3.2 What mechanisms or procedures were used to collect the data (e.g., hardware apparatus or sensor, manual human curation, software pro- gram, software API)? How were these mechanisms or procedures validated?**
+*TO-DO*
+
+### **3.3 If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?**
+*TO-DO*
+
+### **3.4 Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?**
+People involved in the data collection process were five students from the Master Marketing Analytics - Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol and Rob van der Wielen - of whom none of they were compensated in terms of money. However, these students did get compensated with gaining a lot of new knowledge during this project, which they all can use in future projects and jobs.
+
+### **3.5 Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data asso-ciated with the instances (e.g., recent crawl of old news articles)? If not, please describe the time- frame in which the data associated with the instances was created.**
+*TO-DO*
+
+### **3.6 Were any ethical review processes conducted (e.g., by an institutional review board)? If so, please provide a de-scription of these review processes, including the out-comes, as well as a link or other access point to any sup-porting documentation.**
+*TO-DO*
+
+### **3.7 Does the dataset relate to people? If not, you may skip the remaining questions in this section.**
+As mentioned under #2.10 and #2.11, there is no user-related information extracted during the collection of the data.
+
+### **3.8 Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?**
+Not applicable.
+
+### **3.9 Were the individuals in question notified about the data collection? If so, please describe (or show with screen-shots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.**
+Not applicable.
+
+### **3.10 Did the individuals in question consent to the collection and use of their data? If so, please describe (or show with screenshots or other information) how consent was re-quested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.**
+Not applicable.
+
+### **3.11 If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses? If so, please provide a description, as well as a link or other access point to the mecha-nism (if appropriate).**
+Not applicable.
+
+### **3.12 Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted? If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.**
+Not applicable.
+
+
+## **4. Pre-processing, cleaning, labeling**
+### **4.1 Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of in-stances, processing of missing values)? If so, please provide a description. If not, you may skip the remain- der of the questions in this section.**
+*TO-DO*
+
+### **4.2 Was the “raw” data saved in addition to the prepro- cessed/cleaned/labeled data (e.g., to support unanticipat-ed future uses)? If so, please provide a link or other access point to the “raw” data.**
+*TO-DO*
+
+### **4.3 Is the software used to preprocess/clean/label the instanc-es available? If so, please provide a link or other access point.**
+*TO-DO*
+
+
+## **5. Uses**
+### **5.1 Has the dataset been used for any tasks already? If so, please provide a description.**
+This dataset has not been used any tasks before, as this dataset is specially developed as a project for the course Online Data Collection and Management as part of the Master Marketing Analytics at Tilburg University. 
+
+### **5.2 Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.**
+There is a repository that gives access to all documents that are related to the dataset or needed to work with and get an understanding of it. The repository is publically available and can be found via the following link: ...
+*ADD LINK TO THE REPOSITORY*
+
+### **5.3 What (other) tasks could the dataset be used for?**
+This dataset could be used for several other purposes. This dataset can, for example, be used to conduct research to second-hand clothing in general, using other datasets as well to get an broader view of the general picture. Besides that, this dataset can also be used to gather insights in the differences between "regular" clothing items and "pre-owned" clothing items with a special focus on men's clothing. But can also be combined with other datasets that contain for example data of women's clothing. 
+
+### **5.4 Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other undesirable harms (e.g., financial harms, legal risks) If so, please provide a description. Is there any-thing a future user could do to mitigate these undesirable harms?** 
+*TO-DO*
+
+### **5.5 Are there tasks for which the dataset should not be used? If so, please provide a description.**
+This data is collected to analyse, gather insights, and finally draw conclusions based on the findings of the analyses. The data in this dataset should only be used for research purposes. The data in this dataset can not and should not be used to commit plagiarism or anything closely related to it. 
+
 
 
 
