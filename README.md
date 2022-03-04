@@ -29,7 +29,7 @@ Zalando supplies their products within Europe via different websites adapted to 
 Type of instance                | Total number of instances
 ------------------------------- | -------------------------------------------------------------
 Regular men’s clothing items    | 117,582 items divided over 15 different clothing categories
-Pre-owned men’s clothing items  | 68,442 items divided over 6 different clothing categories
+Pre-owned men’s clothing items  | 68,442 items divided over 6 different clothing categories  
 (Zalando, 2022-1)(Zalando, 2022-2)
 
 ### **2.3 Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated / verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).**
