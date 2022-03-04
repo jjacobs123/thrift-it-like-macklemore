@@ -1,5 +1,5 @@
 # Zalando Pre-owned: "thrift it like macklemore"
-*Content: Documentation Zalando Pre-owned API/Web scraping & dataset
+*Content: Documentation Zalando Pre-owned API/Web scraping & dataset  
 Authors: Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol, Rob van der Wielen (Team 2)*
 
 # **Documentation**
