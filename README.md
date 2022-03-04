@@ -29,7 +29,7 @@ The instances are men’s clothing items extracted from the Zalando website in T
 Zalando supplies their products within Europe via different websites adapted to the language of the specific countries. The supply of products Zalando offers remains the same for each of the countries. As the instances in this dataset are spilt between “regular” men’s clothing items and “pre-owned” men’s clothing items, an estimation had to be made on how many instances each of the categories contains in total. Table below shows how many instances each category contained in total on March 4th 2022. Keep in mind that this is just a momentarily observation as the number of offerings will differ over time and also per day. 
 
 **Type of instance**            | **Total number of instances**
-------------------------------- | -------------------------------------------------------------
+:------------------------------ | :------------------------------------------------------------
 Regular men’s clothing items    | 117,582 items divided over 15 different clothing categories
 Pre-owned men’s clothing items  | 68,442 items divided over 6 different clothing categories  
 
@@ -45,7 +45,7 @@ The dataset is a sample of instances from “regular” men’s clothing items a
 For each instance - “regular” men’s clothing item as well as “pre-owned” men’s clothing item - the following data is collected:
 
 **Variable**    | **Description**                                                       | **Type of data**
-----------------|-----------------------------------------------------------------------|---------------------
+:---------------|:----------------------------------------------------------------------|:--------------------
 Pre-owend       | Whether the item is pre-owned or not                                  | Unprocessed text
 Product type    | The type of clothing item (e.g., t-shirt, sweater, pants)             | Unprocessed text
 Brand name      | The name of the brand which made the clothing item                    | Unprocessed text
