@@ -76,17 +76,8 @@ The data within this dataset is not considered confidential, as there is no user
 ### 2.11 • Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.
 Not applicable. The dataset does not contain any offensive, insulting, threatening or anxiety causing information.
 
-### 2.12 • Does the dataset relate to people? If not, you may skip the remaining questions in this section.
+### 2.12 • Does the dataset relate to people? 
 As mentioned under #2.10, there is no user-related information extracted during the collection of the data.
-
-### 2.13 • Does the dataset identify any subpopulations (e.g., by age, gender)? If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.
-Not applicable.
-
-### 2.14 • Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) form the dataset? If so, please describe how.
-Not applicable.
-
-### 2.15 • Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals racial or ethnics origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.
-Not applicable.
 
 
 ## 3. COLLECTION PROCESS
