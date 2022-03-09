@@ -76,17 +76,8 @@ The data within this dataset is not considered confidential, as there is no user
 ### 2.11 • Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.
 Not applicable. The dataset does not contain any offensive, insulting, threatening or anxiety causing information.
 
-### 2.12 • Does the dataset relate to people? If not, you may skip the remaining questions in this section.
+### 2.12 • Does the dataset relate to people? 
 As mentioned under #2.10, there is no user-related information extracted during the collection of the data.
-
-### 2.13 • Does the dataset identify any subpopulations (e.g., by age, gender)? If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.
-Not applicable.
-
-### 2.14 • Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) form the dataset? If so, please describe how.
-Not applicable.
-
-### 2.15 • Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals racial or ethnics origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.
-Not applicable.
 
 
 ## 3. COLLECTION PROCESS
@@ -108,23 +99,8 @@ People involved in the data collection process were five students from the Maste
 ### 3.6 • Were any ethical review processes conducted (e.g., by an institutional review board)? If so, please provide a de-scription of these review processes, including the out-comes, as well as a link or other access point to any sup-porting documentation.
 *TO-DO*
 
-### 3.7 • Does the dataset relate to people? If not, you may skip the remaining questions in this section.
+### 3.7 • Does the dataset relate to people? 
 As mentioned under #2.10 and #2.11, there is no user-related information extracted during the collection of the data.
-
-### 3.8 • Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
-Not applicable.
-
-### 3.9 • Were the individuals in question notified about the data collection? If so, please describe (or show with screen-shots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.
-Not applicable.
-
-### 3.10 • Did the individuals in question consent to the collection and use of their data? If so, please describe (or show with screenshots or other information) how consent was re-quested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.
-Not applicable.
-
-### 3.11 • If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses? If so, please provide a description, as well as a link or other access point to the mecha-nism (if appropriate).
-Not applicable.
-
-### 3.12 • Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted? If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.
-Not applicable.
 
 
 ## 4. PRE-PROCESSING, CLEANING, LABELING
