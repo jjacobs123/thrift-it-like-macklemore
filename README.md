@@ -2,10 +2,6 @@
 *Content: Documentation Zalando Pre-owned API/Web scraping & dataset  
 Authors: Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol, Rob van der Wielen (Team 2)*
 
-# NOT UP-TO-DATE! Note from Demi: Ik heb een WORD-document aangemaakt, daar heb ik al in verder zitten werken, maar je kunt dus niet net als in een README samen in hetzelfde document werken, want als ik een WORD upload download je hem op je laptop en moet je dus eigk weer opnieuw adden zonder dat de ander ziet dat er aanpassingen gedaan zijn. Zal morgen (19-3) wel even wat ik heb toegevoegd in de README toevoegen. De README moet wel up-to-date blijven aangezien er bij sommige punten gevraagd wordt waar script en datasets etc. available zijn. 
-
-
-
 # DOCUMENTATION
 
 ## 1. MOTIVATION
