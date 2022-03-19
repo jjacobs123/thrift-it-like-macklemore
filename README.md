@@ -86,22 +86,27 @@ As mentioned under #2.10, there is no user-related information extracted during 
 
 ## 3. COLLECTION PROCESS
 ### 3.1 • How was the data associated with each instance ac-quired? Was the data directly observable (e.g., raw text, movie ratings), reported by sub- jects (e.g., survey re-sponses), or indirectly inferred/derived from other data (e.g., part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validat-ed/verified? If so, please describe how.
-*TO-DO*
+The data is acquired by scraping both the Zalando’s Heren Pre-Owned clothing page(s) and the Zalando’s Heren Regular clothing page(s). The data was directly observable as product type, brand name, size, price, colour and delivery time are all displayed on the website for consumers. 
 
 ### 3.2 • What mechanisms or procedures were used to collect the data (e.g., hardware apparatus or sensor, manual human curation, software pro- gram, software API)? How were these mechanisms or procedures validated?
-*TO-DO*
+The mechanism used to collect the data from the Zalando website is a manually programmed web scraper. The web scraper is programmed in a Jupyter Notebook. 
 
 ### 3.3 • If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
-*TO-DO*
+*TO-DO*  
+The data in this dataset is part of a larger dataset, namely the dataset Zalando maintains their product offerings with. As mentioned in #2.2 and #2.3, the number of product offerings on the website of Zalando (both men’s pre-owned and men’s regular) is dynamic. Meaning that the total number of instance will change over time, maybe per day but maybe even per hour. As a conclusion a fixed number of instances can never be set. For this matter it was chosen to base the sampling strategy on a momentarily observation of the number of instances. 
+
+As the number of instances in this momentarily observation is this very large, it was chosen to see how many instances could be scraped within a reasonable timeframe of ……….
 
 ### 3.4 • Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
 People involved in the data collection process were five students from the Master Marketing Analytics - Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol and Rob van der Wielen - of whom none of they were compensated in terms of money. However, these students did get compensated with gaining a lot of new knowledge during this project, which they all can use in future projects and jobs.
 
 ### 3.5 • Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data asso-ciated with the instances (e.g., recent crawl of old news articles)? If not, please describe the time- frame in which the data associated with the instances was created.
-*TO-DO*
+*TO-DO*  
+The entire dataset was constructed on March (date) 2022.
 
 ### 3.6 • Were any ethical review processes conducted (e.g., by an institutional review board)? If so, please provide a de-scription of these review processes, including the out-comes, as well as a link or other access point to any sup-porting documentation.
-*TO-DO*
+*TO-DO*  
+Not applicable??
 
 ### 3.7 • Does the dataset relate to people? 
 As mentioned under #2.10 and #2.11, there is no user-related information extracted during the collection of the data.
@@ -109,13 +114,24 @@ As mentioned under #2.10 and #2.11, there is no user-related information extract
 
 ## 4. PRE-PROCESSING, CLEANING, LABELING
 ### 4.1 • Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of in-stances, processing of missing values)? If so, please provide a description. If not, you may skip the remain- der of the questions in this section.
-*TO-DO*
+*TO-DO*  
+*NOTE: As we scrape both Zalando pre-owned and regular, we need to create a variable in both dataset to distinguish between these two groups. < Here elaboration on this should be written.* 
 
 ### 4.2 • Was the “raw” data saved in addition to the prepro- cessed/cleaned/labeled data (e.g., to support unanticipat-ed future uses)? If so, please provide a link or other access point to the “raw” data.
-*TO-DO*
+*TO-DO*  
+*NOTE: Align file names with the rest of the team!!!*  
+All raw data is saved in CSV files. In total three raw dataset are created: 
+● data_zalando_men_po.csv: contains the data of the scraper for the Zalando’s Heren Pre-Owned clothing page(s).
+● data_zalando_men_reg.csv: contains the data of the scraper for the Zalando’s Heren Regular clothing page(s).
+● data_zalando_men_all.csv: contains all data from the data_zalando_men_po.csv and data_zalando_men_reg.csv together as one big dataset.
+These CSV files can be found on ….GOOGLE DRIVE? ADD LINK?
 
 ### 4.3 • Is the software used to preprocess/clean/label the instanc-es available? If so, please provide a link or other access point.
-*TO-DO*
+*TO-DO*  
+As mentioned earlier in #3.2, the web scraper is manually programmed in a Jupyter Notebook. The Jupyter Notebook which contains the source code can be found on: the following link: ...
+ADD LINK TO THE REPOSITORY
+
+
 
 
 ## 5. USES
@@ -123,11 +139,12 @@ As mentioned under #2.10 and #2.11, there is no user-related information extract
 This dataset has not been used any tasks before, as this dataset is specially developed as a project for the course Online Data Collection and Management as part of the Master Marketing Analytics at Tilburg University. 
 
 ### 5.2 • Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.
+*TO-DO*
 There is a repository that gives access to all documents that are related to the dataset or needed to work with and get an understanding of it. The repository is publically available and can be found via the following link: ...  
 *ADD LINK TO THE REPOSITORY*
 
 ### 5.3 • What (other) tasks could the dataset be used for?
-This dataset could be used for several other purposes. This dataset can, for example, be used to conduct research to second-hand clothing in general, using other datasets as well to get an broader view of the general picture. Besides that, this dataset can also be used to gather insights in the differences between "regular" clothing items and "pre-owned" clothing items with a special focus on men's clothing. But can also be combined with other datasets that contain for example data of women's clothing. 
+This dataset could be used for several purposes. This dataset can, for example, be used to conduct research to second-hand clothing in general, using other datasets as well to get an broader view of the general picture. Besides that, this dataset can also be used to gather insights in the differences between "regular" clothing items and "pre-owned" clothing items with a specific focus on men's clothing. But can also be combined with other datasets that contain for example data of women's clothing. These are just simple examples of what can be done with the data. This data, however, can serve as a bases of many other research directions.
 
 ### 5.4 • Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other undesirable harms (e.g., financial harms, legal risks) If so, please provide a description. Is there any-thing a future user could do to mitigate these undesirable harms?  
 *TO-DO*
