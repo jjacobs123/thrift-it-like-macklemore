@@ -1,169 +1,85 @@
-url;brand;category;price;size;delivery time;now
-https://www.zalando.nl/next-zakelijk-overhemd-grey-zir01sju2-001.html;Next;Zakelijk overhemd;13,40;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-overhemd-blue-zir01sipv-001.html;Jack & Jones;Overhemd;14,20;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marks-and-spencer-zakelijk-overhemd-black-zir01sfmb-001.html;Marks & Spencer;Overhemd;17,90;43;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/nike-performance-longsleeve-black-zir01s0no-001.html;Nike Performance;Longsleeve;20,90;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-grey-zir01skse-001.html;Next;Overhemd;16,40;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tiger-of-sweden-overhemd-blue-zir01sgz2-001.html;Tiger of Sweden;Overhemd;26,90;41;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/hollister-co-overhemd-blue-zir01sixj-001.html;Hollister Co.;Overhemd;12,30;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/olymp-overhemd-blue-zir01sfnf-001.html;OLYMP;Overhemd;27,90;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/bonita-overhemd-black-zir01sjc4-001.html;Bonita;Overhemd;18,60;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gaastra-overhemd-orange-zir01skou-001.html;Gaastra;Overhemd;14,50;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marks-and-spencer-overhemd-pink-zir01seze-001.html;Marks & Spencer;Overhemd;17,90;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gardeur-broek-black-zir01rzaq-001.html;Gardeur;Broek;21,90;52;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/lerros-slim-fit-jeans-grey-zir01siz9-001.html;LERROS;Slim fit jeans;26,70;36x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/armani-exchange-straight-leg-jeans-blue-zir01scs4-001.html;Armani Exchange;Straight leg jeans;62,90;32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/replay-straight-leg-jeans-blue-zir01smh0-001.html;Replay;Straight leg jeans;61,90;28x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/boss-chino-black-zir01sfxl-001.html;BOSS;Chino;28,90;34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-wolfskin-broek-black-zir01scdm-001.html;Jack Wolfskin;Broek;25,90;50;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tiger-of-sweden-broek-beige-zir01sjv8-001.html;Tiger of Sweden;Broek;45,40;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/selected-homme-chino-brown-zir01se4d-001.html;Selected Homme;Chino;19,90;31x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/meyer-chino-grey-zir01sdyx-001.html;Meyer;Chino;24,90;54;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/hudson-london-straight-leg-jeans-grey-zir01t5l6-001.html;Hudson London;Straight leg jeans;55,70;26;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-broek-sand-zir01sg9b-001.html;BRAX;Broek;29,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/nn07-slim-fit-jeans-blue-zir01sdjn-001.html;NN07;Slim fit jeans;42,90;31x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tommy-hilfiger-broek-beige-zir01skd5-001.html;Tommy Hilfiger;Broek;22,90;32x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-broek-beige-zir01scd5-001.html;BRAX;Broek;29,90;54;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/bogner-straight-leg-jeans-blue-zir01s7gl-001.html;Bogner;Straight leg jeans;36,90;54;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/bruun-and-stengade-broek-grey-zir01slb8-001.html;Bruun & Stengade;Broek;17,90;34x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jlindeberg-slim-fit-jeans-grey-zir01s65u-001.html;J.LINDEBERG;Slim fit jeans;29,90;31x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/mac-jeans-broek-brown-zir01sgj9-001.html;MAC Jeans;Broek;20,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/massimo-dutti-chino-beige-zir01sd8q-001.html;Massimo Dutti;Chino;19,90;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/diesel-slim-fit-jeans-black-zir01s9fo-001.html;Diesel;Slim fit jeans;32,90;29;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/meyer-broek-pink-zir01sf2b-001.html;Meyer;Broek;22,90;38x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/esprit-collection-chino-black-zir01sd75-001.html;Esprit Collection;Chino;15,90;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tom-tailor-denim-straight-leg-jeans-blue-zir01t5pk-001.html;TOM TAILOR DENIM;Straight leg jeans;13,40;29x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gant-broek-brown-zir01sbf3-001.html;GANT;Broek;23,90;32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/selected-homme-chino-brown-zir01sjgf-001.html;Selected Homme;Chino;14,30;36x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-cargobroek-grey-zir01sjbg-001.html;Jack & Jones;Cargobroek;18,60;28x30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/mavi-broek-black-zir01s8gn-001.html;Mavi;Broek;19,90;30x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/boss-chino-green-zir01sb62-001.html;BOSS;Chino;28,90;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/scotch-and-soda-shorts-brown-zir01skvj-001.html;Scotch & Soda;Shorts;16,90;32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/bonita-broek-black-zir01sjaj-001.html;Bonita;Broek;15,10;40;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/boss-chino-black-zir01scfd-001.html;BOSS;Chino;28,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/guru-jeans-tapered-fit-blue-zir01sf55-001.html;Guru;Jeans Tapered Fit;26,90;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/meyer-pantalon-black-zir01sdx4-001.html;Meyer;Pantalon;25,90;38;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tiger-of-sweden-chino-grey-zir01sk2v-001.html;Tiger of Sweden;Chino;51,80;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tiger-of-sweden-broek-blue-zir01sg8q-001.html;Tiger of Sweden;Broek;33,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pme-legend-broek-blue-zir01s7oa-001.html;PME Legend;Broek;39,90;29x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gabba-broek-blue-zir01sk9r-001.html;Gabba;Broek;27,40;30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ben-sherman-broek-black-zir01sfw6-001.html;Ben Sherman;Broek;17,90;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/hugo-pantalon-black-zir01sdwy-001.html;HUGO;Pantalon;31,90;35;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/oscar-jacobson-broek-blue-zir01s77f-001.html;Oscar Jacobson;Pantalon;20,90;54;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/garcia-straight-leg-jeans-blue-zir01sl31-001.html;Garcia;Straight leg jeans;15,90;32x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/nn07-broek-black-zir01sbka-001.html;NN07;Broek;37,90;34x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/filippa-k-broek-blue-zir01sbeh-001.html;Filippa K;Broek;37,90;52;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/woodbird-broek-grey-zir01se5c-001.html;Woodbird;Broek;21,90;29;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/levis-straight-leg-jeans-blue-zir01sjnk-001.html;Levi's®;Straight leg jeans;20,90;34x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-slim-fit-jeans-blue-zir01sgrc-001.html;Jack & Jones;Slim fit jeans;17,90;29x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/manuel-ritz-chino-brown-zir01slyr-001.html;Manuel Ritz;Chino;25,90;33;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-broek-green-zir01sdxy-001.html;BRAX;Broek;27,90;36x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gerry-weber-broek-black-zir01s5mj-001.html;Gerry Weber;Broek;20,90;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-broek-beige-zir01s674-001.html;Jack & Jones;Broek;15,90;32x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/filippa-k-chino-black-zir01sgmk-001.html;Filippa K;Chino;31,90;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/boss-chino-grey-zir01scjd-001.html;BOSS;Chino;28,90;52;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-broek-green-zir01sfaa-001.html;BRAX;Broek;25,90;48x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/mustang-slim-fit-jeans-blue-zir01sk3s-001.html;Mustang;Slim fit jeans;25,20;29x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/cos-broek-beige-zir01sci3-001.html;COS;Broek;18,90;50;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/calvin-klein-slim-fit-jeans-blue-zir01t0g3-001.html;Calvin Klein;Slim fit jeans;27,20;34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/meyer-broek-brown-zir01skro-001.html;Meyer;Broek;22,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/trussardi-broek-grey-zir01s9h7-001.html;Trussardi;Broek;36,90;36x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tom-tailor-broek-beige-zir01siba-001.html;TOM TAILOR;Broek;16,90;36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tiger-of-sweden-chino-blue-zir01sc54-001.html;Tiger of Sweden;Chino;38,90;54;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-broek-brown-zir01sdin-001.html;BRAX;Broek;27,90;34x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/hilfiger-denim-chino-brown-zir01sb64-001.html;Hilfiger Denim;Chino;18,90;31;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/drykorn-broek-beige-zir01sk5b-001.html;DRYKORN;Broek;16,40;36x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/napapijri-broek-grey-zir01sde9-001.html;Napapijri;Broek;23,90;36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-slim-fit-jeans-blue-zir01sdea-001.html;BRAX;Slim fit jeans;27,90;28;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/meyer-shorts-blue-zir01sdix-001.html;Meyer;Shorts;26,90;46x30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/olymp-level-five-overhemd-blue-zir01saq9-001.html;OLYMP Level Five;Overhemd;17,90;38;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/nn07-straight-leg-jeans-blue-zir01scry-001.html;NN07;Straight leg jeans;37,90;29x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/mac-jeans-relaxed-fit-jeans-beige-zir01sct9-001.html;MAC Jeans;Relaxed fit jeans;25,90;40x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/timberland-overhemd-blue-zir01sm7m-001.html;Timberland;Overhemd;15,90;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/boss-overhemd-black-zir01sjdw-001.html;BOSS;Overhemd;30,40;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/replay-straight-leg-jeans-blue-zir01sg2n-001.html;Replay;Straight leg jeans;61,90;36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/adidas-originals-shorts-black-zir01sktu-001.html;adidas Originals;Shorts;13,40;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tommy-jeans-chino-pink-zir01t5ud-001.html;Tommy Jeans;Chino;16,10;32x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ralph-ralph-lauren-jeansshort-blue-zir01t5w8-001.html;RALPH Ralph Lauren;Jeansshort;13,90;28;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gap-shorts-grey-zir01ska9-001.html;GAP;Shorts;13,40;28;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ben-sherman-broek-grey-zir01t5d8-001.html;Ben Sherman;Broek;19,80;36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/timberland-shorts-green-zir01siqp-001.html;Timberland;Cargobroek;23,90;32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/quiksilver-shorts-grey-zir01t4rj-001.html;Quiksilver;Shorts;12,50;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-shorts-beige-zir01sg96-001.html;Jack & Jones;Shorts;16,90;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/moods-of-norway-shorts-beige-zir01skap-001.html;Moods of Norway;Shorts;24,40;50;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/schoeffel-shorts-red-zir01slbi-001.html;Schöffel;Shorts;33,10;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pierre-cardin-shorts-beige-zir01siyv-001.html;Pierre Cardin;Shorts;21,10;36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/buena-vista-jeansshort-blue-zir01siz7-001.html;Buena Vista;Jeansshort;14,30;XS;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/adidas-originals-shorts-blue-zir01sen1-001.html;adidas Originals;Shorts;15,90;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/lerros-shorts-blue-zir01sk4x-001.html;LERROS;Shorts;23,70;33;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ben-sherman-shorts-grey-zir01rzfp-001.html;Ben Sherman;Shorts;15,90;38;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gardeur-broek-grey-zir01s7wp-001.html;Gardeur;Broek;20,90;40;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/boss-chino-brown-zir01sc8b-001.html;BOSS;Chino;30,90;50;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pierre-cardin-broek-black-zir01sf6t-001.html;Pierre Cardin;Broek;25,90;XXL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/wrangler-broek-black-zir01sj8j-001.html;Wrangler;Broek;24,30;29x30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tiger-of-sweden-pantalon-brown-zir01sg0e-001.html;Tiger of Sweden;Pantalon;37,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/mac-jeans-straight-leg-jeans-blue-zir01sgu0-001.html;MAC Jeans;Straight leg jeans;20,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gardeur-broek-beige-zir01sj2d-001.html;Gardeur;Broek;20,70;33x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-broek-beige-zir01s62w-001.html;BRAX;Broek;23,90;25;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/soliver-straight-leg-jeans-blue-zir01t04a-001.html;s.Oliver;Straight leg jeans;12,30;31x30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/hugo-broek-black-zir01sh7j-001.html;HUGO;Broek;31,90;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ben-sherman-broek-grey-zir01s56c-001.html;Ben Sherman;Broek;19,90;44;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gardeur-chino-brown-zir01sj5k-001.html;Gardeur;Chino;20,70;34x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pierre-cardin-broek-beige-zir01rza0-001.html;Pierre Cardin;Broek;24,90;36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/brax-straight-leg-jeans-grey-zir01s9fa-001.html;BRAX;Straight leg jeans;22,90;46;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/g-star-slim-fit-jeans-blue-zir01slcf-001.html;G-Star;Slim fit jeans;17,90;30x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pierre-balmain-broek-grey-zir01rzat-001.html;Pierre Balmain;Broek;76,90;36x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tommy-hilfiger-broek-blue-zir01sio5-001.html;Tommy Hilfiger;Broek;26,90;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/levis-straight-leg-jeans-blue-zir01shoy-001.html;Levi's®;Straight leg jeans;28,90;29x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/bugatti-chino-brown-zir01sk7r-001.html;Bugatti;Chino;24,10;33x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gabba-slim-fit-jeans-blue-zir01s9lt-001.html;Gabba;Slim fit jeans;25,90;32x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-straight-leg-jeans-blue-zir01t58d-001.html;Jack & Jones;Straight leg jeans;16,10;28x30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gap-chino-beige-zir01scau-001.html;GAP;Chino;15,90;36x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marc-opolo-broek-green-zir01sjjk-001.html;Marc O'Polo;Broek;12,50;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gant-straight-leg-jeans-black-zir01scus-001.html;GANT;Straight leg jeans;22,90;33x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-grey-zir01sew6-001.html;Next;Overhemd;18,90;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marks-and-spencer-overhemd-blue-zir01sf3b-001.html;Marks & Spencer;Overhemd;19,90;43;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pierre-cardin-overhemd-blue-zir01sbkb-001.html;Pierre Cardin;Overhemd;19,90;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/farah-overhemd-orange-zir01scg4-001.html;Farah;Overhemd;20,90;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/one-green-elephant-relaxed-fit-jeans-blue-zir01sjik-001.html;One Green Elephant;Relaxed fit jeans;13,50;33;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marc-opolo-overhemd-pink-zir01sj6a-001.html;Marc O'Polo;Overhemd;12,60;XXL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gant-overhemd-grey-zir01sktl-001.html;GANT;Overhemd;27,40;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/samsoee-samsoee-overhemd-blue-zir01shi9-001.html;Samsøe Samsøe;Overhemd;20,90;XL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-purple-zir01t05i-001.html;Next;Overhemd;12,00;43;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-red-zir01sjf9-001.html;Next;Overhemd;12,30;43;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/calvin-klein-overhemd-red-zir01sjci-001.html;Calvin Klein;Overhemd;24,60;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pme-legend-slim-fit-jeans-blue-zir01s7d5-001.html;PME Legend;Slim fit jeans;28,90;31x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/nn07-broek-blue-zir01sl6g-001.html;NN07;Broek;25,20;30x32;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/guess-straight-leg-jeans-blue-zir01sea2-001.html;Guess;Straight leg jeans;19,90;30;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gerry-weber-straight-leg-jeans-black-zir01sjeq-001.html;Gerry Weber;Straight leg jeans;17,90;48;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gardeur-straight-leg-jeans-grey-zir01sbmf-001.html;Gardeur;Straight leg jeans;20,90;50;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/hilfiger-denim-straight-leg-jeans-blue-zir01s711-001.html;Hilfiger Denim;Straight leg jeans;27,90;32x34;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-chino-beige-zir01t4sm-001.html;Jack & Jones;Chino;12,20;36x36;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-blue-zir01sm7d-001.html;Next;Overhemd;15,90;41;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/olymp-level-five-overhemd-grey-zir01t0lr-001.html;OLYMP Level Five;Overhemd;12,80;39;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gant-trui-black-zir01q6f4-001.html;GANT;Trui;28,90;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/puma-sweater-met-rits-blue-zir01sj4o-001.html;Puma;Sweater met rits;16,50;44;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/eterna-zakelijk-overhemd-blue-zir01saxl-001.html;Eterna;Zakelijk overhemd;21,90;37;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ea7-emporio-armani-overhemd-blue-zir01sbpz-001.html;EA7 Emporio Armani;Overhemd;43,90;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/olymp-level-five-zakelijk-overhemd-grey-zir01sjv5-001.html;OLYMP Level Five;Zakelijk overhemd;18,00;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/ted-baker-overhemd-white-zir01sbxr-001.html;Ted Baker;Overhemd;32,90;40;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/replay-overhemd-multi-coloured-zir01s9lg-001.html;Replay;Overhemd;32,90;39;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marks-and-spencer-overhemd-beige-zir01sad6-001.html;Marks & Spencer;Overhemd;15,90;39;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/burton-overhemd-grey-zir01s8rg-001.html;Burton;Overhemd;19,90;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/soliver-black-label-overhemd-white-zir01sgg7-001.html;s.Oliver BLACK LABEL;Overhemd;16,90;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/wrangler-overhemd-brown-zir01sfv3-001.html;Wrangler;Overhemd;39,90;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/wrangler-overhemd-multi-coloured-zir01sjwa-001.html;Wrangler;Overhemd;17,50;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/eterna-overhemd-blue-zir01skvc-001.html;Eterna;Overhemd;14,10;43;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/cos-overhemdblouse-blue-zir01sj8c-001.html;COS;Overhemd;21,90;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/pierre-cardin-overhemd-red-zir01sfll-001.html;Pierre Cardin;Overhemd;15,90;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/makia-overhemd-grey-zir01scrd-001.html;Makia;Overhemd;30,90;XXL;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/marks-and-spencer-overhemd-purple-zir01sc9f-001.html;Marks & Spencer;Overhemd;20,90;42;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-zakelijk-overhemd-grey-zir01s9ju-001.html;Next;Zakelijk overhemd;16,90;41;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/gant-overhemd-purple-zir01si46-001.html;GANT;Overhemd;25,90;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-red-zir01sj37-001.html;Next;Overhemd;19,40;L;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/jack-and-jones-overhemd-red-zir01s98l-001.html;Jack & Jones;Overhemd;15,90;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/eterna-overhemd-blue-zir01sirt-001.html;Eterna;Overhemd;21,80;45;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/next-overhemd-blue-zir01sfk6-001.html;Next;Overhemd;15,90;S;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/tommy-jeans-overhemd-blue-zir01s7qe-001.html;Tommy Jeans;Overhemd;20,90;M;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/olymp-overhemd-green-zir01sbk3-001.html;OLYMP;Overhemd;30,90;44;3-6;2022-03-17 11:58:38.272923
-https://www.zalando.nl/olymp-level-five-overhemd-white-zir01t4yk-001.html;OLYMP Level Five;Overhemd;13,50;41;3-6;2022-03-17 11:58:38.272923
+url;brand;category;price;size;delivery time;color;now
+https://www.zalando.nl/hugo-t-shirt-print-white-zir014rv8-001.html;HUGO;T-shirt print;19,90;L;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-t-shirt-print-white-zir00wqkm-001.html;Nike Sportswear;T-shirt print;17,90;XL;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-blue-zir00wmhc-001.html;Jack & Jones;T-shirt print;18,90;M;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/polo-ralph-lauren-poloshirt-white-zir012yd5-001.html;Polo Ralph Lauren;Poloshirt;23,90;M;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/ted-baker-t-shirt-print-multi-coloured-zir012jsw-001.html;Ted Baker;T-shirt print;18,90;M;3--6;multi-coloured;2022-03-19 10:48:25.983954
+https://www.zalando.nl/boss-longsleeve-blue-zir012fer-001.html;BOSS;Longsleeve;20,90;L;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/wolsey-top-purple-zir01owtx-001.html;Wolsey;Top;30,90;M;3--6;purple;2022-03-19 10:48:25.983954
+https://www.zalando.nl/cos-longsleeve-brown-zir01ocjz-001.html;COS;Poloshirt;20,90;L;3--6;brown;2022-03-19 10:48:25.983954
+https://www.zalando.nl/levis-t-shirt-basic-orange-zir014p5x-001.html;Levi's®;T-shirt basic;17,90;54;3--6;orange;2022-03-19 10:48:25.983954
+https://www.zalando.nl/diesel-longsleeve-blue-zir015sg8-001.html;Diesel;Longsleeve;23,90;L;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/levis-longsleeve-blue-zir01apm1-001.html;Levi's®;Longsleeve;23,90;S;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/g-star-t-shirt-basic-white-zir01440r-001.html;G-Star;T-shirt basic;19,90;M;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/anerkjendt-longsleeve-beige-zir013lmd-001.html;Anerkjendt;Longsleeve;20,90;XL;3--6;beige;2022-03-19 10:48:25.983954
+https://www.zalando.nl/brax-longsleeve-blue-zir012gbc-001.html;BRAX;Poloshirt;18,90;42;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-longsleeve-white-zir0144zp-001.html;Jack & Jones;Longsleeve;18,90;S;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-performance-t-shirt-print-white-zir01500z-001.html;Nike Performance;T-shirt print;17,90;M;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/converse-longsleeve-purple-zir012lo0-001.html;Converse;Longsleeve;19,90;XS;3--6;purple;2022-03-19 10:48:25.983954
+https://www.zalando.nl/river-island-t-shirt-print-black-zir014tg4-001.html;River Island;T-shirt print;17,90;XL;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/mustang-t-shirt-print-orange-zir014t4g-001.html;Mustang;T-shirt print;18,90;S;3--6;orange;2022-03-19 10:48:25.983954
+https://www.zalando.nl/puma-t-shirt-print-white-zir01438c-001.html;Puma;T-shirt print;18,90;52;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/kiomi-t-shirt-print-dark-blue-zir014t0i-001.html;KIOMI;T-shirt print;18,90;L;3--6;dark blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/tom-tailor-denim-t-shirt-print-white-zir0141f1-001.html;TOM TAILOR DENIM;T-shirt print;19,90;L;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/fat-face-poloshirt-white-zir0144pz-001.html;Fat Face;Poloshirt;22,90;L;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/hummel-t-shirt-print-red-zir014rtl-001.html;Hummel;T-shirt print;20,90;L;3--6;red;2022-03-19 10:48:25.983954
+https://www.zalando.nl/asos-longsleeve-grey-zir014t1w-001.html;ASOS;Longsleeve;18,90;L;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/american-apparel-longsleeve-white-zir0143m4-001.html;American Apparel;Longsleeve;19,90;S;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/anerkjendt-longsleeve-grey-zir00wml2-001.html;Anerkjendt;Longsleeve;17,90;M;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/boden-longsleeve-blue-zir013lo2-001.html;Boden;Longsleeve;18,90;XL;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-t-shirt-print-white-zir014zw5-001.html;Nike Sportswear;T-shirt print;17,90;S;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/salomon-t-shirt-print-yellow-zir01hzpk-001.html;Salomon;T-shirt print;19,90;S;3--6;yellow;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-longsleeve-grey-zir00w2io-001.html;Jack & Jones;Longsleeve;18,90;M;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-longsleeve-blue-zir01i1yy-001.html;Jack & Jones;Longsleeve;19,90;M;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/pepe-jeans-t-shirt-print-grey-zir00u6yz-001.html;Pepe Jeans;T-shirt print;20,20;M;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/boss-t-shirt-print-white-zir01447u-001.html;BOSS;T-shirt print;22,90;XL;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/adidas-originals-t-shirt-print-black-zir014z8i-001.html;adidas Originals;T-shirt print;17,90;L;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/weekday-longsleeve-orange-zir012fak-001.html;Weekday;Longsleeve;18,90;S;3--6;orange;2022-03-19 10:48:25.983954
+https://www.zalando.nl/next-longsleeve-purple-zir0142k1-001.html;Next;Poloshirt;17,90;XXL;3--6;purple;2022-03-19 10:48:25.983954
+https://www.zalando.nl/adidas-originals-t-shirt-print-white-zir014z3z-001.html;adidas Originals;T-shirt print;17,90;M;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/calvin-klein-jeans-t-shirt-print-white-zir0144k1-001.html;Calvin Klein Jeans;T-shirt print;17,90;XL;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-t-shirt-print-green-zir012bgb-001.html;Nike Sportswear;T-shirt print;19,90;XXL;3--6;green;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-grey-zir012fq7-001.html;Jack & Jones;T-shirt print;17,90;L;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/alcott-t-shirt-print-black-zir01f5cv-001.html;ALCOTT;T-shirt print;17,90;S;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/hummel-t-shirt-print-white-zir012ghr-001.html;Hummel;T-shirt print;18,90;3XL;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-white-zir01f9w7-001.html;Jack & Jones;T-shirt print;18,90;S;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/reebok-classic-t-shirt-print-black-zir012klc-001.html;Reebok Classic;T-shirt print;19,90;S;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/tom-tailor-denim-t-shirt-print-blue-zir012jy0-001.html;TOM TAILOR DENIM;T-shirt print;18,90;S;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/abercrombie-and-fitch-t-shirt-basic-green-zir01fq80-001.html;Abercrombie & Fitch;T-shirt basic;17,90;S;3--6;green;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-white-zir00u6pq-001.html;Jack & Jones;T-shirt print;20,20;4XL;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/superdry-t-shirt-basic-blue-zir012lcf-001.html;Superdry;T-shirt basic;18,90;L;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/superdry-t-shirt-print-blue-zir01nsd5-001.html;Superdry;T-shirt print;18,90;S;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/bruno-banani-t-shirt-print-black-zir012fax-001.html;Bruno Banani;T-shirt print;17,90;XXL;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/selected-homme-poloshirt-grey-zir012hhc-001.html;Selected Homme;Poloshirt;18,90;S;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/lerros-t-shirt-print-red-zir012kkv-001.html;LERROS;T-shirt print;19,90;L;3--6;red;2022-03-19 10:48:25.983954
+https://www.zalando.nl/kappa-poloshirt-yellow-zir012jvc-001.html;Kappa;Poloshirt;18,90;XS;3--6;yellow;2022-03-19 10:48:25.983954
+https://www.zalando.nl/asos-t-shirt-print-black-zir00tou6-001.html;ASOS;T-shirt print;17,90;L;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/esprit-t-shirt-print-multicolored-zir00zlvv-001.html;Esprit;T-shirt print;18,90;L;3--6;multicolored;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-black-zir00u6o1-001.html;Jack & Jones;T-shirt print;20,20;L;3--6;black;2022-03-19 10:48:25.983954
+https://www.zalando.nl/hollister-co-t-shirt-print-blue-zir00w2ct-001.html;Hollister Co.;T-shirt print;18,90;XL;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/soliver-t-shirt-print-redblue-zir00zmu8-001.html;s.Oliver;T-shirt print;17,90;M;3--6;red/blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-white-zir01io7l-001.html;Jack & Jones;T-shirt print;20,90;M;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-basic-grey-zir00uck2-001.html;Jack & Jones;T-shirt basic;20,90;L;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-t-shirt-basic-yellow-zir012yca-001.html;Nike Sportswear;T-shirt basic;17,90;S;3--6;yellow;2022-03-19 10:48:25.983954
+https://www.zalando.nl/adidas-originals-poloshirt-blue-zir013rg7-001.html;adidas Originals;Poloshirt;17,90;M;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jack-and-jones-t-shirt-print-grey-zir00tvlt-001.html;Jack & Jones;T-shirt print;20,90;L;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/scotch-and-soda-poloshirt-blue-zir0144wu-001.html;Scotch & Soda;Poloshirt;19,90;S;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/gant-poloshirt-grey-zir00w32p-001.html;GANT;Poloshirt;50,90;XL;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/asics-t-shirt-print-blue-zir012kzz-001.html;ASICS;T-shirt print;19,90;L;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/boss-t-shirt-print-orange-zir012h1t-001.html;BOSS;T-shirt print;22,90;L;3--6;orange;2022-03-19 10:48:25.983954
+https://www.zalando.nl/g-star-t-shirt-print-grey-zir00u78l-001.html;G-Star;T-shirt print;17,90;M;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/adidas-originals-poloshirt-blue-zir012aoi-001.html;adidas Originals;Poloshirt;17,90;XXL;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/adidas-originals-t-shirt-print-green-zir012ax6-001.html;adidas Originals;T-shirt print;17,90;XL;3--6;green;2022-03-19 10:48:25.983954
+https://www.zalando.nl/puma-t-shirt-print-grey-zir012mbo-001.html;Puma;T-shirt print;17,90;M;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/under-armour-t-shirt-print-white-zir0144vr-001.html;Under Armour;T-shirt print;20,90;M;3--6;white;2022-03-19 10:48:25.983954
+https://www.zalando.nl/farah-t-shirt-basic-blue-zir00u6se-001.html;Farah;T-shirt basic;17,90;M;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-t-shirt-basic-red-zir01505g-001.html;Nike Sportswear;T-shirt basic;17,90;XL;3--6;red;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-t-shirt-print-grey-zir012ajf-001.html;Nike Sportswear;T-shirt print;17,90;L;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/nike-sportswear-poloshirt-grey-zir012beu-001.html;Nike Sportswear;Poloshirt;17,90;M;3--6;grey;2022-03-19 10:48:25.983954
+https://www.zalando.nl/boss-t-shirt-print-blue-zir00w2e9-001.html;BOSS;T-shirt print;19,90;XXL;3--6;blue;2022-03-19 10:48:25.983954
+https://www.zalando.nl/hugo-t-shirt-basic-green-zir00w2fr-001.html;HUGO;T-shirt basic;17,90;L;3--6;brown;2022-03-19 10:48:25.983954
+https://www.zalando.nl/tommy-hilfiger-poloshirt-red-zir00tqnx-001.html;Tommy Hilfiger;Poloshirt;17,90;S;3--6;red;2022-03-19 10:48:25.983954
+https://www.zalando.nl/tommy-jeans-t-shirt-print-yellow-zir013pn6-001.html;Tommy Jeans;T-shirt print;18,90;L;3--6;yellow;2022-03-19 10:48:25.983954
+https://www.zalando.nl/jlindeberg-poloshirt-red-zir012mfw-001.html;J.LINDEBERG;Poloshirt;21,90;L;3--6;red;2022-03-19 10:48:25.983954
+https://www.zalando.nl/adidas-originals-poloshirt-multi-colored-zir00whvp-001.html;adidas Originals;Poloshirt;17,90;S;3--6;multi-colored;2022-03-19 10:48:25.983954
+https://www.zalando.nl/naketano-t-shirt-basic-purple-zir012kzo-001.html;Naketano;T-shirt basic;18,90;L;3--6;purple;2022-03-19 10:48:25.983954
