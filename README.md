@@ -115,15 +115,15 @@ As mentioned under #2.10 and #2.11, there is no user-related information extract
 
 ### 4.2 • Was the “raw” data saved in addition to the prepro- cessed/cleaned/labeled data (e.g., to support unanticipat-ed future uses)? If so, please provide a link or other access point to the “raw” data.
 *TO-DO*  
-*NOTE: Align file names with the rest of the team!!!*  
+*NOTE: Align file names with the rest of the team!!!*   
 All raw data is saved in CSV files. In total three raw dataset are created: 
-● data_zalando_men_po.csv: contains the data of the scraper for the Zalando’s Heren Pre-Owned clothing page(s).
-● data_zalando_men_reg.csv: contains the data of the scraper for the Zalando’s Heren Regular clothing page(s).
-● data_zalando_men_all.csv: contains all data from the data_zalando_men_po.csv and data_zalando_men_reg.csv together as one big dataset.
+* data_zalando_men_po.csv: contains the data of the scraper for the Zalando’s Heren Pre-Owned clothing page(s).
+* data_zalando_men_reg.csv: contains the data of the scraper for the Zalando’s Heren Regular clothing page(s).
+* data_zalando_men_all.csv: contains all data from the data_zalando_men_po.csv and data_zalando_men_reg.csv together as one big dataset.
 These CSV files can be found on ….GOOGLE DRIVE? ADD LINK?
 
 ### 4.3 • Is the software used to preprocess/clean/label the instanc-es available? If so, please provide a link or other access point.
-*TO-DO*  
+*TO-DO*   
 As mentioned earlier in #3.2, the web scraper is manually programmed in a Jupyter Notebook. The Jupyter Notebook which contains the source code can be found on: the following link: ...
 ADD LINK TO THE REPOSITORY
 
@@ -135,7 +135,7 @@ ADD LINK TO THE REPOSITORY
 This dataset has not been used any tasks before, as this dataset is specially developed as a project for the course Online Data Collection and Management as part of the Master Marketing Analytics at Tilburg University. 
 
 ### 5.2 • Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.
-*TO-DO*
+*TO-DO*  
 There is a repository that gives access to all documents that are related to the dataset or needed to work with and get an understanding of it. The repository is publically available and can be found via the following link: ...  
 *ADD LINK TO THE REPOSITORY*
 
