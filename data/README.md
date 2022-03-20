@@ -1,0 +1,1 @@
+DATA FOLDER SHOULD CONTAIN THE RAW DATA FILES: (1) Zalando "Pre-owned" men's clothing (*product_description_pre_owned.csv*) and (2) Zalando "Regular" men's clothing *product_description_herenkleding.csv*.
