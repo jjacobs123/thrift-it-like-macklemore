@@ -24,10 +24,13 @@ The dataset was developed by a project group of the course Online Data Collectio
 ### 1.3 • Who funded the created of the dataset? If there is an associated grant, please provide the name of the grantor and the grand name and number.
 There was no funding or grant for the development of this dataset, as this dataset is a result of the web scraper which the project group built. 
 
-### Other comments
+### Additional comments
 **Web scraper vs. API**  
-For this data collection project was chosen to use a web scraper to gather the data. This was decided as the use of web scraping provided more flexibility accross from the use of the API, since the Zalando API was a fixed format to collect data. 
+For this data collection project, it was chosen to use a web scraper to gather the data. This decision was made because of several reasons.  
 
+Firstly, it was decided to use webscraping for this project as the use of web scraping provides more flexibility in collecting data accross from the use of the API, since the Zalando API was a fixed format to collect data and also limited. In other words, web scraping provides more possibilities in the retrieval of specific information, and thus is more customizable in comparison to an API. 
+
+Another important detail to take into account is the fact that the product offering of Zalando is dynamic, meaning that the product offering changes over time (e.g. per day, per hour, etc.). Web scraping is, in this case, more convenient as this method enables the researcher to accces the data available on a particular moment. As a conclusion, web scraping makes it possible to gather data in form of momentarily observations, which will enable the researcher to compare product offering over time. 
 
 
 ## 2. COMPOSITION
@@ -35,6 +38,7 @@ For this data collection project was chosen to use a web scraper to gather the d
 The instances within the dataset(s) are men’s clothing items extracted from the Zalando website in The Netherlands. Within the instances a distinction is made between two types of men’s clothing items, “Regular” men’s clothing items and “Pre-owned” men’s clothing items, as this dataset should enable researchers to conduct research on possible differences and similarities between them. For the extracting of instance the product overview pages* are used as so called seeds for data extraction:  
 * Zalando Pre-owned Men's: https://www.zalando.nl/pre-owned-kleding-heren/?order=activation_date  
 * Zalando Regular Men's: https://www.zalando.nl/herenkleding/  
+
 From the product overview pages product URLs are extracted to derive product information for specific products (read: clothing items). 
 
 (* Product overview pages are the pages containing the total offer of products on a website.) 
@@ -76,15 +80,7 @@ The applied label of an instance is whether or not an clothing item is pre-owned
 Later in the process a new variable will be created to make the distinction between the two groups when merging the dataset into one big dataset. 
 
 ### 2.6 • Is any information missing from individual instances? If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include, e.g., redacted text.
-**Before collecting data**
-As mentioned before data is collected for both the "Pre-owned" and "Regular" men's clothing section on Zalando. In section 2.4 the variables which would be collected are addressed. The original plan was to collect data on the following variables: product url, brand name, product type, price, size, delivery time and color. However, during the programming process the team discovered some problems collecting the sizes of the products within the Regular men's clothing section on Zalando. The data collection for the variable size was made complicated by a dropdown menu, as the sizes for each particular product in this section are displayed in this dropdown menu format. To be able to collect this information, more advanced web scraping techniques are required. Unfortunately, these techniques are beyond the scope of this course. Therefore, the assumption was made that for the regular offering of men's clothing, all sizes are available.
-
-**After collecting data**
-*MORE TO BE DEDICED AFTER DATA COLLECTION IS COMPLETED*  
-
-*Comments:
-Claudia: Het fijt dat we de maat niet scrapen is geen missing information, omdat we dit expres doen.
-Demi: Ik denk toch dat dit valt onder missing information aangezien de code in Zalando het niet mogelijk maakt om dit te scrapen, dus de information is unavailable.*  
+There is no missing information from individual instances observed. However, one important observation to address is that for the variable "delivery_time" 30 instances with the dataset for Zalando "Pre-owned" have the value 'no delivery time'. This value means that these products are sold out and therefore the delivery time is unknown. 
 
 ### 2.7 • Are relationships between individual instances made explicit (e.g., users movie ratings, social network links)? If so, please describe how these relationships are made explicit.
 None explicit relationships between individual instances is experienced, as the instances collected are only products with their own product information. There could be a possible relationship based on brand name, for example when products are from the same brand. However, it is not considered as a relationship on itself. 
@@ -103,6 +99,25 @@ The dataset does not contain any offensive, insulting, threatening or anxiety ca
 
 ### 2.12 • Does the dataset relate to people? 
 As mentioned in section 2.10, there is no user-related information extracted during the collection of the data.
+
+### Additional comments  
+**Intentionally removed information**
+As mentioned before data is collected for both the "Pre-owned" and "Regular" men's clothing section on Zalando. In section 2.4 the variables which would be collected are addressed. The original plan was to collect data on the following variables: product url, brand name, product type, price, size, delivery time and color. However, during the programming process the team discovered some problems collecting the sizes of the products within the Regular men's clothing section on Zalando. The data collection for the variable size was made complicated by a dropdown menu, as the sizes for each particular product in this section are displayed in this dropdown menu format. To be able to collect this information, more advanced web scraping techniques are required. Unfortunately, these techniques are beyond the scope of this course. Therefore, the assumption was made that for the regular offering of men's clothing, all sizes are available.  
+
+**Data insights**
+For each dataset, for both Zalando's "Pre-owned" men's clothing and "Regular" men's clothing, basic summary statistics have been executed. 
+
+*"Pre-owned" men's clothing section*  
+In total 17,796 observartions have been gathered. There is data collected for the following variables: product url, brand name, product type, price, size, delivery time and color. The total dataset consist of 17,799 observations and 7 variables.  
+
+In the dataset 625 different brands occur. The dataset contains in total 73 different categories, types of clothing. Within the different categories it is possible to combine certain categories as some are in line with others, for example "Sweater", "Trui", "Sweater met rits" and "Hoodie". Furtermore, 247 colors or color combinations occur in the dataset. Finally, 247 different sizes are included in the dataset.
+
+*"Regular" men's clothing section*  
+**TO-DO AFTER SCRAPING IS DONE**  
+-  
+-  
+-  
+-  
 
 
 ## 3. COLLECTION PROCESS
@@ -127,7 +142,8 @@ For this data collection project, it was chosen to select items based on the new
 People involved in the data collection process were five students from the Master Marketing Analytics - Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol and Rob van der Wielen - of whom none of they were compensated in terms of money. However, these students did get compensated with gaining a lot of new knowledge during this project, which they all can use in future projects and jobs.
 
 ### 3.5 • Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (e.g., recent crawl of old news articles)? If not, please describe the time- frame in which the data associated with the instances was created.
-The dataset related to the Zalando "Pre-owned" men's clothing section is constructed on March 19th 2022. The dataset related to the Zalando "Regular" men's clothing section is constructed on March 20th 2022.
+The dataset related to the Zalando "Pre-owned" men's clothing section is constructed on March 19th 2022. The dataset related to the Zalando "Regular" men's clothing section is constructed on March 20th 2022.  
+**ENSURE THE CORRECT DATES ARE USED!!!**
 
 ### 3.6 • Were any ethical review processes conducted (e.g., by an institutional review board)? If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.
 When selecting a source to collect web data from, among others, the ethical risks should be evaluated. Firstly, it was evaluated whether Zalando prohibits web scraping by observing the robots.txt for Zalando. This does not state anything against web scraping. Moreover, information on the website and terms and conditions do not mention anything specific about web scraping the website.  
@@ -141,17 +157,16 @@ As mentioned in section 2.10 and 2.11, there is no user-related information extr
 ## 4. PRE-PROCESSING, CLEANING, LABELING
 ### 4.1 • Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of in-stances, processing of missing values)? If so, please provide a description. If not, you may skip the remain- der of the questions in this section.
 *TO-DO*   
-*NOTE: Check if variables are the correct data type, e.g. strings, character, factor, numeric*
+Two separate datasets - one for Zalando's "Pre-owned" men's clothing section and the other for Zalando's "Regular" men's clothing section are obtained during the data collection for this project. When inspecting the data, two issues were discovered:  
+* In both datasets the variable "delivery-time" was displayed as a variable with the class 'character'. This variable shoud be categorical as the variable has different levels, such as '1-4' and '3-6' days. Therefore, this variable is transformed into a factor. 
+* Also the variable "date" did not have the right class. Therefore, an extra variable ("date_ymd") was added as a variable with the class 'date'. Besides this, the variables containing the metadata have been relocated to the first columns in the datasets.  
 
 ### 4.2 • Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? If so, please provide a link or other access point to the “raw” data.
 *TO-DO*  
-*NOTE: Align file names with the rest of the team!!!*   
 All raw data is saved in CSV files. In total three raw dataset are created: 
 * product_description_pre_owned.csv: contains the data of the scraper for the Zalando’s "Pre-owned" men's clothing page(s).
 * product_description_herenkleding.csv: contains the data of the scraper for the Zalando’s "Regular" men's clothing page(s).
-* product_description_all.csv: contains all data from the *product_description_pre_owned.csv* and *product_description_herenkleding.csv* together as one big dataset.
-These CSV files can be found on:  
-*ADD GOOGLE DRIVE LINK??*
+Both CSV files can be found on the repository of this project: https://github.com/jjacobs123/thrift-it-like-macklemore.  
 
 ### 4.3 • Is the software used to preprocess/clean/label the instances available? If so, please provide a link or other access point.
 *TO-DO* *CLEAN REPOSITORY*   
@@ -169,6 +184,7 @@ This dataset could be used for several purposes. This dataset can, for example, 
 
 ### 5.4 • Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other undesirable harms (e.g., financial harms, legal risks) If so, please provide a description. Is there any-thing a future user could do to mitigate these undesirable harms?  
 *TO-DO*
+
 
 ### 5.5 • Are there tasks for which the dataset should not be used? If so, please provide a description. 
 This data is collected to analyse, gather insights, and finally draw conclusions based on the findings of the analyses. The data in this dataset should only be used for research purposes. The data in this dataset can not and should not be used to commit plagiarism or anything closely related to it. 
