@@ -127,7 +127,7 @@ For this data collection project, it was chosen to select items based on the new
 People involved in the data collection process were five students from the Master Marketing Analytics - Claudia Berkhof, Sanne van Ettinger, Jurg Jacobs, Demi van de Pol and Rob van der Wielen - of whom none of they were compensated in terms of money. However, these students did get compensated with gaining a lot of new knowledge during this project, which they all can use in future projects and jobs.
 
 ### 3.5 • Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (e.g., recent crawl of old news articles)? If not, please describe the time- frame in which the data associated with the instances was created.
-The dataset related to the Zalando "Pre-owned" men's clothing section is constructed on March 19th 2022. The dataset related to the Zalando "Regular" men's clothing section is constructed on March 20th 2022. A combination of "Pre-owned" and "Regular" resulted in one big dataset containing all gathered data. 
+The dataset related to the Zalando "Pre-owned" men's clothing section is constructed on March 19th 2022. The dataset related to the Zalando "Regular" men's clothing section is constructed on March 20th 2022.
 
 ### 3.6 • Were any ethical review processes conducted (e.g., by an institutional review board)? If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.
 When selecting a source to collect web data from, among others, the ethical risks should be evaluated. Firstly, it was evaluated whether Zalando prohibits web scraping by observing the robots.txt for Zalando. This does not state anything against web scraping. Moreover, information on the website and terms and conditions do not mention anything specific about web scraping the website.  
@@ -140,8 +140,7 @@ As mentioned in section 2.10 and 2.11, there is no user-related information extr
 
 ## 4. PRE-PROCESSING, CLEANING, LABELING
 ### 4.1 • Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of in-stances, processing of missing values)? If so, please provide a description. If not, you may skip the remain- der of the questions in this section.
-*TO-DO*  
-*NOTE: As we scrape both Zalando pre-owned and regular, we need to create a variable in both dataset to distinguish between these two groups (dummy variable 0 = regular, 1 = pre-owned). < Here elaboration on this should be written.*  
+*TO-DO*   
 *NOTE: Check if variables are the correct data type, e.g. strings, character, factor, numeric*
 
 ### 4.2 • Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? If so, please provide a link or other access point to the “raw” data.
