@@ -25,7 +25,8 @@ The dataset was developed by a project group of the course Online Data Collectio
 There was no funding or grant for the development of this dataset, as this dataset is a result of the web scraper which the project group built. 
 
 ### Other comments
-*ADD MOTIVATION ON CHOICE FOR WEB SCRAPER INSTEAD OF API*
+**Web scraper vs. API**
+For this data collection project was chosen to use a web scraper to gather the data. This was decided as the use of web scraping provided more flexibility accross from the use of the API, since the Zalando API was a fixed format to collect data. 
 
 
 
