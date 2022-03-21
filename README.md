@@ -101,10 +101,10 @@ The dataset does not contain any offensive, insulting, threatening or anxiety ca
 As mentioned in section 2.10, there is no user-related information extracted during the collection of the data.
 
 ### Additional comments  
-**Intentionally removed information**
+**Intentionally removed information**  
 As mentioned before data is collected for both the "Pre-owned" and "Regular" men's clothing section on Zalando. In section 2.4 the variables which would be collected are addressed. The original plan was to collect data on the following variables: product url, brand name, product type, price, size, delivery time and color. However, during the programming process the team discovered some problems collecting the sizes of the products within the Regular men's clothing section on Zalando. The data collection for the variable size was made complicated by a dropdown menu, as the sizes for each particular product in this section are displayed in this dropdown menu format. To be able to collect this information, more advanced web scraping techniques are required. Unfortunately, these techniques are beyond the scope of this course. Therefore, the assumption was made that for the regular offering of men's clothing, all sizes are available.  
 
-**Data insights**
+**Data insights**  
 For each dataset, for both Zalando's "Pre-owned" men's clothing and "Regular" men's clothing, basic summary statistics have been executed. 
 
 *"Pre-owned" men's clothing section*  
