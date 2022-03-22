@@ -1,7 +1,7 @@
 # Zalando Pre-owned: "thrift it like macklemore"
 *Content: Documentation Zalando Pre-owned Web scraping & dataset  
-Authors: Team 2*
-Adapted from: Gebru, Morgenstern, Vecchione, Vaughan, Wallack, Daumeé, and Crawford. (2018). Datasheets for Datasets
+Authors: Team 2  
+Adapted from: Gebru, Morgenstern, Vecchione, Vaughan, Wallack, Daumeé, and Crawford. (2018). Datasheets for Datasets*
 
 # Documentation
 
@@ -29,7 +29,7 @@ There was no funding or grant for the development of this dataset, as this datas
 **Web scraper vs. API**  
 For this data collection project, it was chosen to use a web scraper to gather the data. This decision was made because of several reasons.  
 
-Firstly, it was decided to use web scraping for this project as the use of web scraping provides more flexibility in collecting data compared to the use of an API, since the Zalando API was a fixed format to collect data and also limited. In other words, web scraping provides more possibilities in the retrieval of specific information, and thus is more customizable in comparison to an API. 
+Firstly, it was decided to use web scraping for this project as the use of web scraping provides more flexibility in collecting data compared to the use of an API, since the Zalando API was a fixed format to collect data and also limited. In other words, web scraping provides more possibilities in the retrieval of specific information, and thus is more customizable in comparison to an API. Also, the Zalando API was a bit complex to get a good understanding of how to work with it. 
 
 Another important detail to take into account is the fact that the product offering of Zalando is dynamic, meaning that the product offering changes over time (e.g. per day, per hour, etc.). Web scraping is, in this case, more convenient as this method enables the researcher to access the data available on a particular moment. As a conclusion, web scraping makes it possible to gather data in form of momentarily observations, which will enable the researcher to compare product offering over time. 
 
@@ -59,7 +59,7 @@ The dataset is a sample of instances from Zalando's “Regular” men’s clothi
 
 The maximum number of product overview pages shown on the Zalando website is 428. The decision on the sample size was based on the computation of the technically feasible sample size. In the calculations the total number of product overview pages, the number of products and scraping time are taken into account. It was decided to scrape 50% of all product overview pages, meaning that data was collected from 214 product overview pages for both the Zalando's “Regular” men’s clothing section and the Zalando's “Pre-owned” men’s clothing section. Each product overview page consist of 85 products, which results in a total sample of 18,190 products per clothing section. In total data is collected from 36,380 products. It takes 35 seconds to scrape all product URLs on a product overview page. From the calculations became clear that it will take 2 hours to scrape all products from 214 product overview pages. This has to be done for both clothing sections, which leads to a total of 4 hours of scraping. This was deemed technically feasible.
 
-However, after scraping, we ended up with a sample size of 17,976 for Zalando's "Pre-owned" men's clothing section and 8,090 for Zalando's "Regular" men's clothing section, which corresponds to a sample of 49,41% and 22.23% of the population respectively. For the pre-owned clothing section this is still very close to the initially intended 50%, but for the regular section this is quite a big decrease. As the web scraper did work for the pre-owned section, this probably has something to do with the code on the Zalando website. The precise cause is not investigated as this was complicated and beyond the scope of this course. 
+However, after scraping, the team ended up with a sample size of 17,976 for Zalando's "Pre-owned" men's clothing section and 8,090 for Zalando's "Regular" men's clothing section, which corresponds to a sample of 49,41% and 22.23% of the population respectively. For the "Pre-owned" clothing section this is still very close to the initially intended 50%, but for the "Regular" clothing section this is quite a big decrease. As the web scraper did work for the "Pre-owned" section, this probably has something to do with the code on the Zalando website. The precise cause is not investigated as this was complicated and beyond the scope of this course. 
  
 ### 2.4 • What data does each instance consist of? “Raw” data (e.g., unprocessed text or image) or features?
 For each instance, a “Pre-owned” men’s clothing item or "Regular" men's clothing item, the following data is collected:
