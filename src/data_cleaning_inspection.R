@@ -121,15 +121,6 @@ ggplot(data = size_most_occur_po, aes(x = size, y = n)) +
 #############################################################################################################################
 
 
-
-# NOTE: HIERONDER VOOR HERENKLEDING ALLEEN NOG FF DE TEKST/BEVINDINGEN VERVANGEN DOOR DE JUISTE!!
-
-
-
-
-
-
-
 # 2. DATA INSPECTION ZALANDO REGULAR HEREN
 ## 2.1 CLEANING 
 
@@ -158,6 +149,15 @@ class(product_description_regular$date)
 product_description_reg_cleaned <- product_description_regular %>% 
   mutate(delivery_time = gsub("--", "-", product_description_regular$delivery_time))
 
+### Remove 'vanaf' and replace the comma for a dot in price. 
+product_description_reg_cleaned <- product_description_reg_cleaned %>% 
+  mutate(price = gsub("Vanaf", "", product_description_reg_cleaned$price))
+
+product_description_reg_cleaned <- product_description_reg_cleaned %>% 
+  mutate(price = gsub(",", ".", product_description_reg_cleaned$price))
+
+product_description_reg_cleaned$price <- as.numeric(product_description_reg_cleaned$price)
+
 ### Change measurement scale of $delivery_time to categorical using as.factor 
 product_description_reg_cleaned$delivery_time <- as.factor(product_description_reg_cleaned$delivery_time)
 
@@ -176,51 +176,51 @@ fwrite(product_description_reg_cleaned, '../data/product_description_reg_cleaned
 
 ## 2.2 INSPECTION 
 ### General summary statistics
-summary(product_description_regular)
+summary(product_description_reg_cleaned)
 
-# Conclusion $price: The mean price for all products is X euros. 
-# Conclusion $delivery_time: For the delivery time ..CONCLUSION..
+# Conclusion $price: The mean price for all products is 76.86 euros. 
+# Conclusion $delivery_time: Mostly all of the product are delivered between 1-2 days or 3-6 days.
 
 
 ### Exploration $brand
-# Number of different brands in the dataset: In total X brands occur in the dataset. The number of brand is too much to plot.
-brand_n <- product_description_regular %>%
+# Number of different brands in the dataset: In total 533 brands occur in the dataset. The number of brand is too much to plot.
+brand_n_reg <- product_description_reg_cleaned %>%
   count(brand)
 
-# Create new dataset with the brands that occur more than 250 times: CONCLUSION
-brand_most_occur <- brand_n %>%
-  filter(n > 250)
+# Create new dataset with the brands that occur more than 100 times: The brand Next occurs the most on Zalando Herenkleding, followed by Jack & Jones, LC Waikiki and BOSS.
+brand_most_occur_reg <- brand_n_reg %>%
+  filter(n > 100)
 
-ggplot(data = brand_most_occur, aes(x = brand, y = n)) +
-  geom_bar(stat = "identity", fill = "purple") +
+ggplot(data = brand_most_occur_reg, aes(x = brand, y = n)) +
+  geom_bar(stat = "identity", fill = "orange") +
   labs(title = "Brands that occur the most at Zalando Regular",
        x = "Brands", y = "Number of times in dataset")
 
 ### Exploration $category
-# Number of different categories in the dataset: X categories occur in the dataset. This is too much to plot.
-category_n <- product_description_regular %>%
+# Number of different categories in the dataset: 93 categories occur in the dataset. This is too much to plot.
+category_n_reg <- product_description_reg_cleaned %>%
   count(category)
 
-# Create new dataset with the products that occurs more than a 100 times: CONCLUSION
-category_most_occur <- category_n %>%
-  filter(n > 100)
+# Create new dataset with the products that occurs more than a 150 times: T-shirt print and Overhemd are by far the most offered categories on Zalando Herenkleding. These are followed by Poloshirt, Sweater and Shorts. 
+category_most_occur_reg <- category_n_reg %>%
+  filter(n > 150)
 
-ggplot(data = category_most_occur, aes(x = category, y = n)) +
-  geom_bar(stat = "identity", fill = "purple") +
+ggplot(data = category_most_occur_reg, aes(x = category, y = n)) +
+  geom_bar(stat = "identity", fill = "orange") +
   labs(title = "Products that occur the most at Zalando Regular",
        x = "Category", y = "Number of times in dataset")
 
 ### Exploration $color
-# Number of different colors in the dataset: X color or color combinations occur in the dataset. This are too many colors to plot.
-color_n <- product_description_regular %>%
+# Number of different colors in the dataset: 2198 color or color combinations occur in the dataset. This are too many colors to plot.
+color_n_reg <- product_description_reg_cleaned %>%
   count(color)
 
-# Create a dataset with the colors that occurs more than a 100 times: CONCLUSION
-color_most_occur <- color_n %>%
+# Create a dataset with the colors that occurs more than a 100 times: Black is by far the most offered color on Zalando Herenkleding. This is followed by the colours white, blue and dark blue. 
+color_most_occur_reg <- color_n_reg %>%
   filter(n > 100)
 
-ggplot(data = color_most_occur, aes(x = color, y = n)) +
-  geom_bar(stat = "identity", fill = "purple") +
+ggplot(data = color_most_occur_reg, aes(x = color, y = n)) +
+  geom_bar(stat = "identity", fill = "orange") +
   labs(title = "Colors that occurs the most on Zalando Regular",
        x = "Color", y = "Number of times in dataset")
 
