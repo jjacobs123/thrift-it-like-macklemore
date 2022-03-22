@@ -1,10 +1,11 @@
 # Zalando Pre-owned: "thrift it like macklemore"
-*Content: Documentation Zalando Pre-owned API/Web scraping & dataset  
+*Content: Documentation Zalando Pre-owned Web scraping & dataset  
 Authors: Team 2*
+Adapted from: Gebru, Morgenstern, Vecchione, Vaughan, Wallack, Daumeé, and Crawford. (2018). Datasheets for Datasets
 
-# DOCUMENTATION
+# Documentation
 
-## 1. MOTIVATION
+## 1. Motivation
 ### 1.1 • For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled?
 **Background information**  
 Over the past few years, the topic of sustainability has gained a lot of attention. It is well known that in order to preserve the planet for future generations, sustainability needs to be implemented in everyday life. Therefore, a lot of companies have started to implement sustainability into their organizations. This can even be beneficial for companies, as when they are able to implement good sustainability practices and adequately diffuse them towards their stakeholders, it can in the medium term become a source of competitive advantage and as a consequence lead to value creation (Sicoli, Bronzetti & Baldini, 2019). 
@@ -33,7 +34,7 @@ Firstly, it was decided to use web scraping for this project as the use of web s
 Another important detail to take into account is the fact that the product offering of Zalando is dynamic, meaning that the product offering changes over time (e.g. per day, per hour, etc.). Web scraping is, in this case, more convenient as this method enables the researcher to access the data available on a particular moment. As a conclusion, web scraping makes it possible to gather data in form of momentarily observations, which will enable the researcher to compare product offering over time. 
 
 
-## 2. COMPOSITION
+## 2. Composition
 ### 2.1 • What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? Are there multiple types of instances (e.g., movies, users, and ratings; people and interactions between them; nodes and edges)? 
 The instances within the dataset(s) are men’s clothing items extracted from the Zalando website in The Netherlands. Within the instances a distinction is made between two types of men’s clothing items, “Regular” men’s clothing items and “Pre-owned” men’s clothing items, as this dataset should enable researchers to conduct research on possible differences and similarities between them. For the extracting of instance the product overview pages* are used as so called seeds for data extraction:  
 * Zalando Pre-owned Men's: https://www.zalando.nl/pre-owned-kleding-heren/?order=activation_date  
@@ -49,14 +50,16 @@ Zalando supplies their products within Europe via different websites adapted to 
 **Type of instance**            | **Total number of instances**
 :------------------------------ | :------------------------------------------------------------
 Regular men’s clothing items    | 117,582 items divided over 15 different clothing categories
-Pre-owned men’s clothing items  | 68,442 items divided over 6 different clothing categories  
+Pre-owned men’s clothing items  | 78,442 items divided over 6 different clothing categories  
 
 (Zalando, 2022-1)(Zalando, 2022-2)
 
 ### 2.3 • Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g., geographic coverage)? If so, please describe how this representativeness was validated / verified. If it is not representative of the larger set, please describe why not (e.g., to cover a more diverse range of instances, because instances were withheld or unavailable).
 The dataset is a sample of instances from Zalando's “Regular” men’s clothing items and Zalando's “Pre-owned” men’s clothing items.  
 
-The maximum number of product overview pages shown on the Zalando website is 428. The decision on the sample size was based on the computation of the technically feasible sample size. In the calculations the total number of product overview pages, the number of products and scraping time are taken into account. It was decided to scrape 50% of all product overview pages, meaning that data was collected from 214 product overview pages for both the Zalando's “Regular” men’s clothing section and the Zalando's “Pre-owned” men’s clothing section. Each product overview page consist of 85 products, which results in a total sample of 18,190 products per clothing section. In total data is collected from 36,380 products. It takes 35 seconds to scrape all product URLs on a product overview page. From the calculations became clear that it will take 2 hours to scrape all products from 214 product overview pages. This has to be done for both clothing sections, which leads to a total of 4 hours of scraping. This was deemed technically feasible. Moreover, by scraping 50% of all product pages, it was deemed as representative of the whole. 
+The maximum number of product overview pages shown on the Zalando website is 428. The decision on the sample size was based on the computation of the technically feasible sample size. In the calculations the total number of product overview pages, the number of products and scraping time are taken into account. It was decided to scrape 50% of all product overview pages, meaning that data was collected from 214 product overview pages for both the Zalando's “Regular” men’s clothing section and the Zalando's “Pre-owned” men’s clothing section. Each product overview page consist of 85 products, which results in a total sample of 18,190 products per clothing section. In total data is collected from 36,380 products. It takes 35 seconds to scrape all product URLs on a product overview page. From the calculations became clear that it will take 2 hours to scrape all products from 214 product overview pages. This has to be done for both clothing sections, which leads to a total of 4 hours of scraping. This was deemed technically feasible.
+
+However, after scraping, we ended up with a sample size of 17,976 for Zalando's "Pre-owned" men's clothing section and 8,090 for Zalando's "Regular" men's clothing section, which corresponds to a sample of 49,41% and 22.23% of the population respectively. For the pre-owned clothing section this is still very close to the initially intended 50%, but for the regular section this is quite a big decrease. As the web scraper did work for the pre-owned section, this probably has something to do with the code on the Zalando website. The precise cause is not investigated as this was complicated and beyond the scope of this course. 
  
 ### 2.4 • What data does each instance consist of? “Raw” data (e.g., unprocessed text or image) or features?
 For each instance, a “Pre-owned” men’s clothing item or "Regular" men's clothing item, the following data is collected:
@@ -115,7 +118,7 @@ In total 8,090 observations have been gathered. There is data collected for the 
 The mean price is for all products is €76.86. In the dataset 533 different brands occur. The dataset contains in total 93 different categories, types of clothing. Within the different categories it is possible to combine certain categories as some are in line with others. Furthermore, 2198 colors or color combinations occur in the dataset, of which 'Black' is the most occurring color. Finally, for delivery time products mostly have a delivery time of 1-2 or 3-6 working days. 
 
 
-## 3. COLLECTION PROCESS
+## 3. Collection process
 ### 3.1 • How was the data associated with each instance ac-quired? Was the data directly observable (e.g., raw text, movie ratings), reported by sub- jects (e.g., survey re-sponses), or indirectly inferred/derived from other data (e.g., part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validat-ed/verified? 
 The data is acquired by scraping both Zalando’s "Pre-owned" men's clothing pages and Zalando’s  "Regular" men's clothing pages. For both Zalando’s "Pre-owned" and "Regular" the following two steps are used in the scraping process: 
 1. Product overview pages are scraped to gather product URLs.
@@ -156,7 +159,7 @@ However, Zalando does have a public API and takes part in Open Source Developmen
 As mentioned in section 2.10 and 2.11, there is no user-related information extracted during the collection of the data.
 
 
-## 4. PRE-PROCESSING, CLEANING, LABELING
+## 4. Pre-processing, cleaning, labeling
 ### 4.1 • Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of in-stances, processing of missing values)? 
 Two separate datasets - one for Zalando's "Pre-owned" men's clothing section and the other for Zalando's "Regular" men's clothing section are obtained during the data collection for this project. When inspecting the data, a few issues were discovered:  
 * In both datasets the variable "delivery-time" was displayed as a variable with the class 'character'. This variable should be categorical as the variable has different levels, such as '1-4' and '3-6' days. Therefore, this variable is transformed into a factor. 
@@ -174,7 +177,7 @@ Both CSV files can be found on the repository of this project: https://github.co
 ### 4.3 • Is the software used to preprocess/clean/label the instances available? 
 As mentioned earlier in section 3.2, the web scraper is manually programmed in a Jupyter Notebook. The Jupyter Notebook which contains the source code can be found on: the following link: https://github.com/jjacobs123/thrift-it-like-macklemore.
 
-## 5. USES
+## 5. Uses
 ### 5.1 • Has the dataset been used for any tasks already? 
 This dataset has not been used any tasks before, as this dataset is specially developed as a project for the course Online Data Collection and Management as part of the Master Marketing Analytics at Tilburg University. 
 
