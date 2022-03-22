@@ -168,6 +168,7 @@ Two separate datasets - one for Zalando's "Pre-owned" men's clothing section and
 Yes, all raw data is saved in CSV files. In total two raw dataset are created: 
 * product_description_pre_owned.csv: contains the data of the scraper for the Zalando’s "Pre-owned" men's clothing page(s).
 * product_description_herenkleding.csv: contains the data of the scraper for the Zalando’s "Regular" men's clothing page(s).  
+
 Both CSV files can be found on the repository of this project: https://github.com/jjacobs123/thrift-it-like-macklemore. Also the cleaned datasets can be found on this repository by the names: "product_description_po_cleaned.csv" and "product_description_reg_cleaned.csv".  
 
 ### 4.3 • Is the software used to preprocess/clean/label the instances available? 
