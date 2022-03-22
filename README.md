@@ -39,17 +39,9 @@ The instances within the dataset(s) are men’s clothing items extracted from th
 * Zalando Pre-owned Men's: https://www.zalando.nl/pre-owned-kleding-heren/?order=activation_date  
 * Zalando Regular Men's: https://www.zalando.nl/herenkleding/  
 
-From the product overview pages product URLs are extracted to derive product information for specific products (read: clothing items). 
+From the product overview pages product URLs are extracted to derive product information for specific products (read: clothing items). When scraping Zalando "Pre-owned" Men's product overview pages the sorting option "order=activation_date" was used. When scraping Zalando "Regular" Men's product overview pages the sorting option "populair" was used. In section 3.3 more detail is given on this as it is incorporated in the sampling strategy used for the data collection.
 
 (* Product overview pages are the pages containing the total offer of products on a website.) 
-
-
-**ARGUMENT VERSCHILLENDE FILTERS!!!
-Maar ik kan er wel bij zetten dat de pre-owned gefilterd is op activation date omdat we de meest recente producten wilde hebben en de regular omdat we de populairste wilde hebben om het mogelijk te maken om een vergelijking te maken hier tussen, iets in die zin
-----
-When scraping Zalando Pre-owned Men's the filter "order=activation_date" was used. When scraping Zalando Regular Men's the filter "populair" was used. In section 3.3 more detail is given on this as it is incorporated in the sampling strategy used for the data collection.** 
-
-
 
 ### 2.2 • How many instances are there in total (of each type, if appropriate)?
 Zalando supplies their products within Europe via different websites adapted to the language of the specific countries. The supply of products Zalando offers remains the same for each of the countries. As the instances in this dataset are spilt between “Regular” men’s clothing items and “Pre-owned” men’s clothing items, an estimation had to be made on how many instances each of the clothing sections contain in total. Table below shows how many instances each clothing section contained in total on March 4th 2022. Keep in mind that this is just a momentarily observation as the number of offerings will differ over time (e.g. per day, per hour, etc.). 
@@ -83,9 +75,8 @@ Color           | The color of the clothing item                                
 As mentioned in section 2.2, the product offering on the Zalando website will differ over time because products are sold and new products are uploaded. This is one reason to include the date of scraping into the dataset as well. Another reason to include the date of scraping is that it enables researchers to investigate trends over time. 
 
 ### 2.5 • Is there a label or target associated with each instance?
+*AANPASSEN*
 The applied label of an instance is whether or not an clothing item is pre-owned or not. As clarified in section 2.1, the data is collected for men's clothing with the distinction between "Regular" men's clothing items and "Pre-owned" men's clothing items. To make this distinction as clear as possible the variables collected for the "Pre-owned" men's clothing section end with "po" as an indication to the Pre-owned" label. The variables for the "Regular" men's clothing section do not have a special denotation. 
-
-Later in the process a new variable will be created to make the distinction between the two groups when merging the dataset into one big dataset. 
 
 ### 2.6 • Is any information missing from individual instances? If so, please provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed information, but might include, e.g., redacted text.
 There is no missing information from individual instances observed. However, one important observation to address is that for the variable "delivery_time" 30 instances with the dataset for Zalando "Pre-owned" have the value 'no delivery time'. This value means that these products are sold out and therefore the delivery time is unknown. 
@@ -140,19 +131,19 @@ The mechanism used to collect the data from the Zalando website is a manually pr
 During the programming of the web scraper a combination of *Selenium* and *BeautifulSoup* is used. Selenium is used to scrape the different product URLs of the product overview pages as the products on these web pages load when scrolling down the page. When web scraping, it is not possible to manually scroll down the pages. Selenium allows automating web browsers, which was very useful in this case. BeautifulSoup, on its turn, is used to scrape the product pages and extract product information from them. 
 
 ### 3.3 • If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
-The data in this dataset is part of a larger dataset, namely the dataset Zalando maintains their product offerings with. As mentioned in section 2.2 and 2.3, the number of product offerings on the website of Zalando (both men’s "Pre-owned" and men’s "Regular") is dynamic. Meaning that the total number of instances will change over time, maybe per day or even per hour. As a conclusion, a fixed number of instances can never be set. For this matter it was chosen to base the sampling strategy on a momentarily observation of the number of instances. As the number of instances in this momentarily observation is still very large, it was chosen to see how many instances could be scraped within a reasonable timeframe of 2 hours per instance.
+The data in this dataset is part of a larger dataset, namely the dataset Zalando maintains their product offerings with. As mentioned in section 2.2 and 2.3, the number of product offerings on the website of Zalando (both men’s "Pre-owned" and men’s "Regular") is dynamic. Meaning that the total number of instances will change over time, maybe per day or even per hour. As a conclusion, a fixed number of instances can never be set. For this matter it was chosen to base the sampling strategy on a momentarily observation of the number of instances. As the number of instances in this momentarily observation is still very large, it was chosen to see how many instances could be scraped within a reasonable timeframe of 2 hours per clothing section. As explained in section 2.3, it was chosen to use a sample of all product overview pages available, for both Zalando "Pre-Owned" and "Regular", to maintain a feasible scraping time. For both clothing sections 214 product overview pages are scraped after which the product URLs retrieved from these product overview pages are scraped to gather the product information.
 
 ** Sorting options on Zalando**
 When viewing the Zalando website, there are several different ways in which you can sort the clothing items. Sorting can be done based on the highest popularity, the newest products, the lowest or highest price, or based on whether they are in the sale or not. The chosen sorting option will determine the sample of the data. 
 
 *Zalando "Pre-owned"*
-For this data collection project, it was chosen to select items based on the newest products first. This sorting option is indicated in the URL by "order=activation_date". It was decided to work with this sorting option as it is the default option when viewing the product overview page. Moreover, as explained in section 2.3, it was chosen to use a sample of all product overview pages available to maintain a feasible scraping time. The first 214 pages are used as these will provide data on the newest product items.  
+For this data collection project, it was chosen to select items based on the newest Pre-owned products first. This sorting option is indicated in the URL by "order=activation_date". It was decided to work with this sorting option as it is the default option when viewing the product overview page. This will result in a dataset containing the most recent product offering on Zalando "Pre-owned". 
 
+*Zalando "Regular"*
+It was chosen to select items based on the most populair products/brands first. This sorting option is the default option when viewing the product overview page. It was decided to use this sorting option as this provides us with information on the most populair products/brands on Zalando "Regular".
 
-ARGUMENT VERSCHILLENDE FILTERS!!!
-Maar ik kan er wel bij zetten dat de pre-owned gefilterd is op activation date omdat we de meest recente producten wilde hebben en de regular omdat we de populairste wilde hebben om het mogelijk te maken om een vergelijking te maken hier tussen, iets in die zin
-
-When scraping Zalando Pre-owned Men's the filter "order=activation_date" was used. When scraping Zalando Regular Men's the filter "populair" was used. In section 3.3 more detail is given on this as it is incorporated in the sampling strategy used for the data collection. 
+*Conclusion*
+By using this combination of sorting options, researchers will be able to research for example if populair brands/products from Zalando "Regular" also appear on Zalando "Pre-owned" and to what extent. 
 
 ### 3.4 • Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
 People involved in the data collection process were five students from the Master Marketing Analytics of whom none of they were compensated in terms of money. However, these students did get compensated with gaining a lot of new knowledge during this project, which they all can use in future projects and jobs.
