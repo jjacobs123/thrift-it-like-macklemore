@@ -146,7 +146,6 @@ People involved in the data collection process were five students from the Maste
 
 ### 3.5 • Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (e.g., recent crawl of old news articles)? If not, please describe the time- frame in which the data associated with the instances was created.
 The dataset related to the Zalando "Pre-owned" men's clothing section is constructed on March 19th 2022. The dataset related to the Zalando "Regular" men's clothing section is constructed on March 22nd 2022.  
-**ENSURE THE CORRECT DATES ARE USED!!!**
 
 ### 3.6 • Were any ethical review processes conducted (e.g., by an institutional review board)? 
 When selecting a source to collect web data from, among others, the ethical risks should be evaluated. Firstly, it was evaluated whether Zalando prohibits web scraping by observing the robots.txt for Zalando. This does not state anything against web scraping. Moreover, information on the website and terms and conditions do not mention anything specific about web scraping the website.  
@@ -168,7 +167,7 @@ Two separate datasets - one for Zalando's "Pre-owned" men's clothing section and
 ### 4.2 • Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
 Yes, all raw data is saved in CSV files. In total two raw dataset are created: 
 * product_description_pre_owned.csv: contains the data of the scraper for the Zalando’s "Pre-owned" men's clothing page(s).
-* product_description_herenkleding.csv: contains the data of the scraper for the Zalando’s "Regular" men's clothing page(s).
+* product_description_herenkleding.csv: contains the data of the scraper for the Zalando’s "Regular" men's clothing page(s).  
 Both CSV files can be found on the repository of this project: https://github.com/jjacobs123/thrift-it-like-macklemore. Also the cleaned datasets can be found on this repository by the names: "product_description_po_cleaned.csv" and "product_description_reg_cleaned.csv".  
 
 ### 4.3 • Is the software used to preprocess/clean/label the instances available? 
