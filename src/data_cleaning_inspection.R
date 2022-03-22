@@ -80,7 +80,7 @@ ggplot(data = brand_most_occur_po, aes(x = brand, y = n)) +
 category_n_po <- product_description_po_cleaned %>%
 count(category)
 
-# Create new dataset with the products that occurs more than a 100 times: By far, 'overhemd' (= shirt, in English) is offered the most at Zalando Pre-owned.  
+# Create new dataset with the products that occurs more than a 100 times: By far, 'Overhemd' (= shirt, in English) is offered the most at Zalando Pre-owned.  
 category_most_occur_po <- category_n_po %>%
   filter(n > 100)
 
@@ -187,7 +187,7 @@ summary(product_description_reg_cleaned)
 brand_n_reg <- product_description_reg_cleaned %>%
   count(brand)
 
-# Create new dataset with the brands that occur more than 100 times: The brand Next occurs the most on Zalando Herenkleding, followed by Jack & Jones, LC Waikiki and BOSS.
+# Create new dataset with the brands that occur more than 100 times: The brand 'Next' occurs the most on Zalando Herenkleding, followed by 'Jack & Jones', 'LC Waikiki' and 'BOSS'.
 brand_most_occur_reg <- brand_n_reg %>%
   filter(n > 100)
 
@@ -201,7 +201,7 @@ ggplot(data = brand_most_occur_reg, aes(x = brand, y = n)) +
 category_n_reg <- product_description_reg_cleaned %>%
   count(category)
 
-# Create new dataset with the products that occurs more than a 150 times: T-shirt print and Overhemd are by far the most offered categories on Zalando Herenkleding. These are followed by Poloshirt, Sweater and Shorts. 
+# Create new dataset with the products that occurs more than a 150 times: 'T-shirt print' and 'Overhemd' are by far the most offered categories on Zalando Herenkleding. These are followed by 'Poloshirt', 'Sweater' and 'Shorts'. 
 category_most_occur_reg <- category_n_reg %>%
   filter(n > 150)
 
@@ -211,11 +211,11 @@ ggplot(data = category_most_occur_reg, aes(x = category, y = n)) +
        x = "Category", y = "Number of times in dataset")
 
 ### Exploration $color
-# Number of different colors in the dataset: 2198 color or color combinations occur in the dataset. This are too many colors to plot.
+# Number of different colors in the dataset: 2198 colors or color combinations occur in the dataset. This are too many colors to plot.
 color_n_reg <- product_description_reg_cleaned %>%
   count(color)
 
-# Create a dataset with the colors that occurs more than a 100 times: Black is by far the most offered color on Zalando Herenkleding. This is followed by the colours white, blue and dark blue. 
+# Create a dataset with the colors that occurs more than a 100 times: 'Black" is by far the most offered color on Zalando Herenkleding. This is followed by the colors 'White', 'Blue' and 'Dark blue'. 
 color_most_occur_reg <- color_n_reg %>%
   filter(n > 100)
 
