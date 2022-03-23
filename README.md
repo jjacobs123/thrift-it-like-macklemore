@@ -108,7 +108,7 @@ As mentioned before data is collected for both the "Pre-owned" and "Regular" men
 For each dataset, for both Zalando's "Pre-owned" men's clothing and "Regular" men's clothing, basic summary statistics have been executed. 
 
 *"Pre-owned" men's clothing section*  
-In total 17,976 observations have been gathered. There is data collected for the following variables: product url, brand name, product type, price, size, delivery time and color. The total dataset for Zalando's "Pre-owned" consists of 17,976 observations and 8 variables. 
+In total 17,976 observations have been gathered. There is data collected for the following variables: product url, brand name, product type, price, size, delivery time and color. The total dataset for Zalando's "Pre-owned" consists of 17,976 observations and 9 variables. 
 
 The mean price is for all products is €23.89. In the dataset 625 different brands occur. The dataset contains in total 73 different categories, types of clothing. Within the different categories it is possible to combine certain categories as some are in line with others, for example "Sweater", "Trui", "Sweater met rits" and "Hoodie". Furthermore, 247 colors or color combinations occur in the dataset, of which 'Blue' occurs the most. Moreover, 247 different sizes are included in the dataset. Finally, for delivery time products mostly have a delivery time of 1-4 or 3-6 working days and for some products the delivery time is unknown. 
 
