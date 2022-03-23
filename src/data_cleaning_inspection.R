@@ -15,13 +15,6 @@ product_description_pre_owned <- read_delim("../data/product_description_pre_own
                                             delim = ";", escape_double = FALSE, trim_ws = TRUE)
 View(product_description_pre_owned)
 
-######################################
-product_description_pre_owned <- read_excel("../data/product_description_pre_owned.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
-View(product_description_pre_owned)
-
-######################################
-
-
 ### Check class of every variable
 class(product_description_pre_owned$brand)
 class(product_description_pre_owned$price)
@@ -49,7 +42,6 @@ product_description_po_cleaned <- product_description_po_cleaned %>%
 
 ### Write CSV file cleaned dataset "product_description_po_cleaned"
 fwrite(product_description_po_cleaned, '../data/product_description_po_cleaned.csv', row.names = F)
-
 
 
 
@@ -129,13 +121,6 @@ product_description_regular <- read_delim("../data/product_description_herenkled
                                             delim = ";", escape_double = FALSE, trim_ws = TRUE)
 View(product_description_regular)
 
-######################################
-product_description_regular1 <- read_excel("../data/product_description_herenkleding.xlsx", sheet = 1, col_names = TRUE, col_types = NULL, na = "", skip = 0)
-View(product_description_regular1)
-
-######################################
-
-
 ### Check class of every variable
 class(product_description_regular$brand)
 class(product_description_regular$price)
@@ -172,6 +157,7 @@ product_description_reg_cleaned <- product_description_reg_cleaned %>%
 
 ### Write CSV file cleaned dataset "product_description_reg_cleaned"
 fwrite(product_description_reg_cleaned, '../data/product_description_reg_cleaned.csv', row.names = F)
+
 
 
 ## 2.2 INSPECTION 
